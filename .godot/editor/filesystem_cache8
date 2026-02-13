@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1739017971
+default_env.tres::Environment::-1::1739017958::0::1::::<><>::
+::res://assets/::1739017845
+fasilkom.png::CompressedTexture2D::7716203008561212981::1739017845::1739017973::1::::<><>::
+icon.png::CompressedTexture2D::7346330604504066256::1739017845::1739017972::1::::<><>::
+meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1739017845::1739017972::1::::<><>::
+playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1739017845::1739017973::1::::<><>::
+playerShip1_green.png::CompressedTexture2D::2001637748197818689::1739017845::1739017973::1::::<><>::
+snow.png::CompressedTexture2D::4888826356960029576::1739017845::1739017972::1::::<><>::
+stone.png::CompressedTexture2D::6534652574608454091::1739017845::1739017973::1::::<><>::
+::res://scenes/::1739017845
+BlueShip.tscn::PackedScene::-1::1739017958::0::1::::<><>::res://assets/playerShip1_blue.png
+MainLevel.tscn::PackedScene::-1::1739017958::0::1::::<><>::res://scenes/StonePlatform.tscn<>res://scenes/BlueShip.tscn<>res://scenes/PlatformBlue.gd<>res://scenes/ObjectiveArea.gd
+ObjectiveArea.gd::GDScript::-1::1739017958::0::1::::<>Area2D<>::
+PlatformBlue.gd::GDScript::-1::1739017958::0::1::::<>Node2D<>::
+StonePlatform.tscn::PackedScene::-1::1739017958::0::1::::<><>::

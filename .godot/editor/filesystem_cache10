@@ -1,0 +1,17 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1770908517
+default_env.tres::Environment::784183765299159521::1770883168::0::1::::<><><>0<>0<><>::
+::res://assets/::1770883168
+fasilkom.png::CompressedTexture2D::7716203008561212981::1770883168::1770883168::1::::<><><>0<>0<>34767e6ab5093914ddcaf5a1cc019799<>res://.godot/imported/fasilkom.png-811230bee752126972e823ef8f345618.ctex::
+icon.png::CompressedTexture2D::7346330604504066256::1770883168::1770883168::1::::<><><>0<>0<>aac28eefd6e47366da16a2567e23471a<>res://.godot/imported/icon.png-b6a7fb2db36edd3d95dc42f1dc8c1c5d.ctex::
+meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1770883168::1770883168::1::::<><><>0<>0<>9346686fff07b382cb3c440ff09a6085<>res://.godot/imported/meteorBrown_big1.png-4f51bd2307bfc1514c3fcc74f73cfab3.ctex::
+playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1770883168::1770883168::1::::<><><>0<>0<>ee12715b5d80e0b21a701af3f62ae43a<>res://.godot/imported/playerShip1_blue.png-781545b5574b1ca3ebab9db6c0cd6317.ctex::
+playerShip1_green.png::CompressedTexture2D::2001637748197818689::1770883168::1770883168::1::::<><><>0<>0<>c5aeac611eceae5f9b6f1b79aafc4e3f<>res://.godot/imported/playerShip1_green.png-48682f9d49da962ab563a1bc5b94a765.ctex::
+snow.png::CompressedTexture2D::4888826356960029576::1770883168::1770883168::1::::<><><>0<>0<>192db43572aa783625f4a7dae8fd8d76<>res://.godot/imported/snow.png-929e917300e1d7cf8ce88dfddb03947d.ctex::
+stone.png::CompressedTexture2D::6534652574608454091::1770883168::1770883168::1::::<><><>0<>0<>7f92a9a2d73bf49940e0cc7493e66136<>res://.godot/imported/stone.png-3a1875e621a1b764516a9ea0026422f2.ctex::
+::res://scenes/::1770883239
+BlueShip.tscn::PackedScene::211729922060446004::1770883168::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
+MainLevel.tscn::PackedScene::5012948746790269291::1770883168::0::1::::<><><>0<>0<><>::uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://datfp8kxjrjg::::res://scenes/BlueShip.tscn<>res://scenes/PlatformBlue.gd<>res://scenes/ObjectiveArea.gd
+ObjectiveArea.gd::GDScript::1671119794590757256::1770883168::0::1::::<>Area2D<><>0<>0<><>::
+PlatformBlue.gd::GDScript::3692431675949484974::1770883168::0::1::::<>Node2D<><>0<>0<><>::
+StonePlatform.tscn::PackedScene::1746515621318578487::1770883168::0::1::::<><><>0<>0<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
