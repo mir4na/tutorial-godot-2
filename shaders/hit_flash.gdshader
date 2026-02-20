@@ -4,11 +4,10 @@ uniform bool active = false;
 uniform vec4 flash_color : source_color = vec4(1.0, 0.0, 0.0, 1.0);
 
 void fragment() {
-	vec4 previous_color = texture(TEXTURE, UV);
+	vec4 tex_color = texture(TEXTURE, UV);
 	if (active) {
-		COLOR = flash_color;
-		COLOR.a = previous_color.a;
+		COLOR = vec4(flash_color.rgb, tex_color.a * COLOR.a);
 	} else {
-		COLOR = previous_color;
+		COLOR = tex_color * COLOR;
 	}
 }

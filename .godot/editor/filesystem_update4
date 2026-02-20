@@ -7,3 +7,5 @@ res://scripts/autoloads/audio_manager.gd
 res://scenes/platformer/level_1.tscn
 res://scenes/shooter/shooter_world.tscn
 res://scenes/ui/main_menu.tscn
+res://scripts/platformer/platformer_player.gd
+res://shaders/hit_flash.gdshader

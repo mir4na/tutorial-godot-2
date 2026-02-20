@@ -8,6 +8,14 @@ const GRAVITY = 1500.0
 
 @onready var sprite: Sprite2D = $Sprite2D
 
+var hit_flash_shader = preload("res://shaders/hit_flash.gdshader")
+
+func _ready() -> void:
+	EventBus.player_died.connect(_flash_effect)
+	var mat = ShaderMaterial.new()
+	mat.shader = hit_flash_shader
+	sprite.material = mat
+
 func _physics_process(delta: float) -> void:
 
 	if not is_on_floor():
@@ -31,3 +39,10 @@ func _physics_process(delta: float) -> void:
 
 	if global_position.y > 1200:
 		get_tree().reload_current_scene()
+
+func _flash_effect() -> void:
+	if sprite and sprite.material:
+		sprite.material.set_shader_parameter("flash_color", Color.RED)
+		sprite.material.set_shader_parameter("active", true)
+		await get_tree().create_timer(0.1).timeout
+		sprite.material.set_shader_parameter("active", false)

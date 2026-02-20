@@ -47,6 +47,15 @@ offset_bottom = 54.0
 theme_override_font_sizes/font_size = 24
 text = "PRESS ESC TO PAUSE"
 
+[node name="Label2" type="Label" parent="CanvasLayer" unique_id=857527414]
+offset_left = 30.0
+offset_top = 20.0
+offset_right = 268.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 24
+text = "SPACE to JUMP
+AD or Arrow Left/Right to MOVE"
+
 [node name="Platforms" type="Node2D" parent="." unique_id=982404861]
 
 [node name="Platform" parent="Platforms" unique_id=1129032849 instance=ExtResource("2_platform")]

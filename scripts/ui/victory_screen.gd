@@ -8,7 +8,7 @@ func _ready() -> void:
 	next_level_button.pressed.connect(_on_next_level_pressed)
 	
 	if GameManager.next_level_path != "":
-		score_label.text = "I was just saying ‘beware.’"
+		score_label.text = "I was just saying ‘BEWARE’"
 	else:
 		score_label.text = "FINAL SCORE: %d" % GameManager.score
 	
