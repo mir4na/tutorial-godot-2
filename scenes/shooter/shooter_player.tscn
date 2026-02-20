@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://ck3dburol747m"]
+
+[ext_resource type="Texture2D" uid="uid://dgrrg14sgp4f4" path="res://assets/playerShip1_blue.png" id="1_sprite"]
+[ext_resource type="Script" uid="uid://cs35d14ayvgbq" path="res://scripts/shooter/shooter_player.gd" id="2_script"]
+[ext_resource type="AudioStream" uid="uid://cl84b4cyd1vn2" path="res://audio/Laser Gun Sound Effect (mp3cut.net).mp3" id="2_xhltp"]
+[ext_resource type="AudioStream" uid="uid://cvyi7wdlmj0r6" path="res://audio/Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3" id="3_ro3ou"]
+
+[node name="ShooterPlayer" type="CharacterBody2D" unique_id=1698562035]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("2_script")
+shoot_sfx = ExtResource("2_xhltp")
+hit_sfx = ExtResource("3_ro3ou")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=195498662]
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_sprite")
+
+[node name="Hitbox" type="Area2D" parent="." unique_id=1114020964]
+collision_layer = 2
+collision_mask = 12
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Hitbox" unique_id=941474455]
+polygon = PackedVector2Array(-26, 3, -7, -6, -5, -27, 4, -27, 11, -6, 28, 4, 30, 18, 7, 21, 0, 28, -8, 19, -27, 17)
+
+[node name="ShootTimer" type="Timer" parent="." unique_id=607979858]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=326260363]
+polygon = PackedVector2Array(-13, -2, -26, 1, -26, 17, -9, 20, 1, 29, 10, 19, 28, 17, 27, 0, 10, -9, 6, -26, -4, -26, -10, -3)

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" uid="uid://c6r6e8n7n8n8" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="1_void"]
+[ext_resource type="Texture2D" uid="uid://d1a1a1a1a1a1" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_stars"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer_Void" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(0, 1080)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer_Void"]
+texture_filter = 1
+texture_repeat = 2
+texture = ExtResource("1_void")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 1920, 1080)
+
+[node name="ParallaxLayer_Stars" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(1, 1.5)
+motion_mirroring = Vector2(0, 1080)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer_Stars"]
+texture_filter = 1
+texture_repeat = 2
+texture = ExtResource("2_stars")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 1920, 1080)

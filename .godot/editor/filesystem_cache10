@@ -1,17 +1,142 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770908517
-default_env.tres::Environment::784183765299159521::1770883168::0::1::::<><><>0<>0<><>::
-::res://assets/::1770883168
-fasilkom.png::CompressedTexture2D::7716203008561212981::1770883168::1770883168::1::::<><><>0<>0<>34767e6ab5093914ddcaf5a1cc019799<>res://.godot/imported/fasilkom.png-811230bee752126972e823ef8f345618.ctex::
-icon.png::CompressedTexture2D::7346330604504066256::1770883168::1770883168::1::::<><><>0<>0<>aac28eefd6e47366da16a2567e23471a<>res://.godot/imported/icon.png-b6a7fb2db36edd3d95dc42f1dc8c1c5d.ctex::
-meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1770883168::1770883168::1::::<><><>0<>0<>9346686fff07b382cb3c440ff09a6085<>res://.godot/imported/meteorBrown_big1.png-4f51bd2307bfc1514c3fcc74f73cfab3.ctex::
-playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1770883168::1770883168::1::::<><><>0<>0<>ee12715b5d80e0b21a701af3f62ae43a<>res://.godot/imported/playerShip1_blue.png-781545b5574b1ca3ebab9db6c0cd6317.ctex::
-playerShip1_green.png::CompressedTexture2D::2001637748197818689::1770883168::1770883168::1::::<><><>0<>0<>c5aeac611eceae5f9b6f1b79aafc4e3f<>res://.godot/imported/playerShip1_green.png-48682f9d49da962ab563a1bc5b94a765.ctex::
-snow.png::CompressedTexture2D::4888826356960029576::1770883168::1770883168::1::::<><><>0<>0<>192db43572aa783625f4a7dae8fd8d76<>res://.godot/imported/snow.png-929e917300e1d7cf8ce88dfddb03947d.ctex::
-stone.png::CompressedTexture2D::6534652574608454091::1770883168::1770883168::1::::<><><>0<>0<>7f92a9a2d73bf49940e0cc7493e66136<>res://.godot/imported/stone.png-3a1875e621a1b764516a9ea0026422f2.ctex::
-::res://scenes/::1770883239
-BlueShip.tscn::PackedScene::211729922060446004::1770883168::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
-MainLevel.tscn::PackedScene::5012948746790269291::1770883168::0::1::::<><><>0<>0<><>::uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://datfp8kxjrjg::::res://scenes/BlueShip.tscn<>res://scenes/PlatformBlue.gd<>res://scenes/ObjectiveArea.gd
-ObjectiveArea.gd::GDScript::1671119794590757256::1770883168::0::1::::<>Area2D<><>0<>0<><>::
-PlatformBlue.gd::GDScript::3692431675949484974::1770883168::0::1::::<>Node2D<><>0<>0<><>::
-StonePlatform.tscn::PackedScene::1746515621318578487::1770883168::0::1::::<><><>0<>0<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
+::res://::1771539948
+default_env.tres::Environment::784183765299159521::1771539736::0::1::::<><><>0<>0<><>::
+::res://assets/::1770971968
+fasilkom.png::CompressedTexture2D::7716203008561212981::1770971552::1770971575::1::::<><><>0<>0<>2c403e24a31ee1c77dc1ec3d8560a0eb<>res://.godot/imported/fasilkom.png-811230bee752126972e823ef8f345618.ctex::
+icon.png::CompressedTexture2D::7346330604504066256::1770971552::1770971575::1::::<><><>0<>0<>20816717a874e0681d7ac925c457cf2e<>res://.godot/imported/icon.png-b6a7fb2db36edd3d95dc42f1dc8c1c5d.ctex::
+meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1770971552::1770971575::1::::<><><>0<>0<>a2435f1099dc54a35a1677dc4de2ace1<>res://.godot/imported/meteorBrown_big1.png-4f51bd2307bfc1514c3fcc74f73cfab3.ctex::
+playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1770971552::1770971575::1::::<><><>0<>0<>08a9a44bc9abf06a52f56b2179dec809<>res://.godot/imported/playerShip1_blue.png-781545b5574b1ca3ebab9db6c0cd6317.ctex::
+playerShip1_green.png::CompressedTexture2D::2001637748197818689::1770971552::1770971575::1::::<><><>0<>0<>83dc2c1a44f6d900d7c9760e978d906c<>res://.godot/imported/playerShip1_green.png-48682f9d49da962ab563a1bc5b94a765.ctex::
+snow.png::CompressedTexture2D::4888826356960029576::1770971552::1770971575::1::::<><><>0<>0<>67c46f6a53681ee157302841cd852a6b<>res://.godot/imported/snow.png-929e917300e1d7cf8ce88dfddb03947d.ctex::
+stone.png::CompressedTexture2D::6534652574608454091::1770971552::1770971575::1::::<><><>0<>0<>95600c8154288cc19f7214054ae2b43e<>res://.godot/imported/stone.png-3a1875e621a1b764516a9ea0026422f2.ctex::
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/::1660805628
+Readme.txt::TextFile::-1::1660805636::0::1::::<><><>0<>0<><>::
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/Aseprite/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/::1770972001
+Asteroid 01 - Base.png::CompressedTexture2D::829704615818533743::1645757962::1770972001::1::::<><><>0<>0<>96b85c8c7f3ae92bd3a1d4c76c832586<>res://.godot/imported/Asteroid 01 - Base.png-2e1219f92ca31a8500f668f09e123a30.ctex::
+Asteroid 01 - Explode.png::CompressedTexture2D::8148418201075106549::1645757962::1770972001::1::::<><><>0<>0<>ef1d608964cdc76a30dcfc0ee75a9020<>res://.godot/imported/Asteroid 01 - Explode.png-3445182d48eecb9ba40f01ad9251b25c.ctex::
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/Aseprite/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/::1770972002
+Starry background  - Layer 01 - Void.png::CompressedTexture2D::3752735130227186360::1645757962::1770972002::1::::<><><>0<>0<>2bcef869c515e73d4cce0371f00880b6<>res://.godot/imported/Starry background  - Layer 01 - Void.png-65b726a5fe30b2515e2f045be95b1afe.ctex::
+Starry background  - Layer 02 - Stars.png::CompressedTexture2D::6252809375492520197::1645757962::1770972002::1::::<><><>0<>0<>e94251ef984ef25eaa2606cb226a94f2<>res://.godot/imported/Starry background  - Layer 02 - Stars.png-57b8666d17d1c9268f2b16081b8dc459.ctex::
+Starry background  - Layer 03 - Stars.png::CompressedTexture2D::6158085881629858909::1645757962::1770972002::1::::<><><>0<>0<>b7030dea3cd1622d6c21e4a3c7618b90<>res://.godot/imported/Starry background  - Layer 03 - Stars.png-65f1c988d42e6261aa0b039f113699f9.ctex::
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Split up/::1770972002
+Starry background  - Layer 01 - Solid colour.png::CompressedTexture2D::3284288916807252650::1645757962::1770972001::1::::<><><>0<>0<>87c2fec52e001b76064a15f68d010669<>res://.godot/imported/Starry background  - Layer 01 - Solid colour.png-9e79b3f749d83b6bad3b68f559fc18ae.ctex::
+Starry background  - Layer 02 - Shadows 2.png::CompressedTexture2D::7259897810352584122::1645757962::1770972002::1::::<><><>0<>0<>d256526df140f8bf3a0e0b347a9cd5f0<>res://.godot/imported/Starry background  - Layer 02 - Shadows 2.png-325b5ca260aa3a98f4389cc9174f67fb.ctex::
+Starry background  - Layer 02 - Shadows.png::CompressedTexture2D::2153296809698030946::1645757962::1770972002::1::::<><><>0<>0<>0e06b204caddc2185564227f9b91af8b<>res://.godot/imported/Starry background  - Layer 02 - Shadows.png-8294e968840241fbbeb50c2a9cf52b9d.ctex::
+Starry background  - Layer 03 - Stars 2.png::CompressedTexture2D::7354251419374188189::1645757962::1770972002::1::::<><><>0<>0<>8508d594fce02f3ed5f4536f7a12d954<>res://.godot/imported/Starry background  - Layer 03 - Stars 2.png-694082433ce82b21f0fb538709ead883.ctex::
+Starry background  - Layer 03 - Stars.png::CompressedTexture2D::1184576667803579809::1645757962::1770972002::1::::<><><>0<>0<>4363fed64624666bc5e7e36b54b2f12e<>res://.godot/imported/Starry background  - Layer 03 - Stars.png-e325d0ee798b6560f3d8f9e2cf25972a.ctex::
+Starry background - Layer X - Big Star 2.png::CompressedTexture2D::6428401654415291034::1645757962::1770972002::1::::<><><>0<>0<>13bff37400712f04c1c9e35fc1930c3a<>res://.godot/imported/Starry background - Layer X - Big Star 2.png-8688984d965ae6251e31fd7768a2efc5.ctex::
+Starry background - Layer X - Big Star.png::CompressedTexture2D::3042377673054797824::1645757962::1770972002::1::::<><><>0<>0<>5c956b88e8a594b67412f00d1b58a65f<>res://.godot/imported/Starry background - Layer X - Big Star.png-593f01d604ec839e07c027e3668e8087.ctex::
+Starry background - Layer X -Black hole.png::CompressedTexture2D::744822442213680356::1645757962::1770972002::1::::<><><>0<>0<>9d7e84fd4fdc90cdc5053a191a837124<>res://.godot/imported/Starry background - Layer X -Black hole.png-05bea3717f255e5b3668da511f60c5be.ctex::
+Starry background - Layer X -Rotary Star 2.png::CompressedTexture2D::3502253096984175096::1645757962::1770972002::1::::<><><>0<>0<>7a69ce11fe4e83bdaa2daf0c571ddc63<>res://.godot/imported/Starry background - Layer X -Rotary Star 2.png-36ae585692481790c9fc968fd6314391.ctex::
+Starry background - Layer X -Rotary Star.png::CompressedTexture2D::7147605930680324182::1645757962::1770972002::1::::<><><>0<>0<>c5cc34c2825987f218629b6449aefe74<>res://.godot/imported/Starry background - Layer X -Rotary Star.png-e345bf3102a958b765453a23702fc821.ctex::
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Effects/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Effects/Aseprite/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Effects/PNGs/::1770972002
+Asteroid - Flame.png::CompressedTexture2D::7652519826726118168::1645757962::1770972002::1::::<><><>0<>0<>3d9a2e89f8326e0c80ca2ae0846a14a7<>res://.godot/imported/Asteroid - Flame.png-fef55b3645975c571d808ecfc8e79811.ctex::
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Planets/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Planets/Aseprite/::1660805588
+::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Planets/PNGs/::1770972002
+Earth-Like planet - Without back glow.png::CompressedTexture2D::385799501998305485::1645757962::1770972002::1::::<><><>0<>0<>be12b952053ed51babd1c9d8c347deed<>res://.godot/imported/Earth-Like planet - Without back glow.png-4c1c1ec0736f156191d79a5f3a9a291e.ctex::
+Earth-Like planet.png::CompressedTexture2D::276495334554096557::1645757962::1770972002::1::::<><><>0<>0<>1b79992e7e7e9d584fd3df065d3a9a6f<>res://.godot/imported/Earth-Like planet.png-8af7e5425b7692e0e7f68a4740ae7dd6.ctex::
+::res://assets/Lunar Lander Upload/::1770972001
+Asset-Sheet-with-grid.png::CompressedTexture2D::4094658435681614762::1606193822::1770972001::1::::<><><>0<>0<>85b2115c99fc86982571cceb36b388bc<>res://.godot/imported/Asset-Sheet-with-grid.png-59eaa3667df7cfc4a389b2301666f040.ctex::
+Asset-Sheet-with-transparency.png::CompressedTexture2D::3114356581036298804::1606193804::1770972001::1::::<><><>0<>0<>87f63abc8a6c6d63b84d9e9f3dd9ddf6<>res://.godot/imported/Asset-Sheet-with-transparency.png-3e2fd3496ad168824955fe07aa0bc00a.ctex::
+License.txt::TextFile::-1::1606195104::0::1::::<><><>0<>0<><>::
+README.txt::TextFile::-1::1606195222::0::1::::<><><>0<>0<><>::
+::res://assets/Lunar Lander Upload/Effects/::1770972002
+Explosion-duplicate frames.png::CompressedTexture2D::3851483731722849032::1605503460::1770972002::1::::<><><>0<>0<>030b32d86a01ab6018dd27af1e9119aa<>res://.godot/imported/Explosion-duplicate frames.png-979bb08d6d3d9e6070c386280c8663d3.ctex::
+Explosion.png::CompressedTexture2D::4675406917306437126::1606193774::1770972002::1::::<><><>0<>0<>15fd7319e07b787b8ab0ddb74c68954a<>res://.godot/imported/Explosion.png-e3ef532a5a7b92a1c76c7322db34aab6.ctex::
+Fx_01.png::CompressedTexture2D::855372666797365988::1605522094::1770972002::1::::<><><>0<>0<>efd8d72ca72e2aef56c1a55976a709b2<>res://.godot/imported/Fx_01.png-fdbec6f743749fb2ea2e3cdf2ccc3245.ctex::
+Fx_02.png::CompressedTexture2D::1489810620556473637::1605522102::1770972002::1::::<><><>0<>0<>576add935724abe9a799345d3d64c56e<>res://.godot/imported/Fx_02.png-a6b4247358fed7afc44b74d59ddf7315.ctex::
+Fx_03.png::CompressedTexture2D::1476739086126381048::1606116508::1770972002::1::::<><><>0<>0<>1dba799d743f41eb5598126e5132bf73<>res://.godot/imported/Fx_03.png-0dc7076bec005ba47d6011585c2aca08.ctex::
+Fx_04.png::CompressedTexture2D::8858165826701997890::1606116808::1770972002::1::::<><><>0<>0<>b6d3301f58b51f14a733c4b92a7caf0b<>res://.godot/imported/Fx_04.png-cc9531dcebec3d69d103c782c3605d89.ctex::
+Fx_05.png::CompressedTexture2D::2089554820808467651::1606116868::1770972002::1::::<><><>0<>0<>1df0c8dbe39acab943e5c0de3000787a<>res://.godot/imported/Fx_05.png-a244d8c97dbd200e82e7eaab00d6f760.ctex::
+Thruster_01.png::CompressedTexture2D::1626983204723580103::1605518522::1770972002::1::::<><><>0<>0<>52d66d03f0e09a90017dea6dcd062945<>res://.godot/imported/Thruster_01.png-0ab5820162ce1cce1a3a787f725824b6.ctex::
+Thruster_02.png::CompressedTexture2D::4014885024174983171::1605518522::1770972002::1::::<><><>0<>0<>3cc3c3309dd79211550953fc885199b4<>res://.godot/imported/Thruster_02.png-745f4f0e7da253b44b54c32d6c6e9d1e.ctex::
+Thruster_03.png::CompressedTexture2D::6615572030831381172::1605518522::1770972002::1::::<><><>0<>0<>a832a44faf1d38799bfcb8976cd10853<>res://.godot/imported/Thruster_03.png-d4867283362ef2704ba7b181df370c41.ctex::
+Thruster_04.png::CompressedTexture2D::213400829024801210::1605580322::1770972002::1::::<><><>0<>0<>2a9f35e6623d6284b9c5c19131fced3d<>res://.godot/imported/Thruster_04.png-2fe037dd0db13139579760c65609da40.ctex::
+::res://assets/Lunar Lander Upload/Moon Background/::1770972002
+Surface_Layer1.png::CompressedTexture2D::3444955279290480215::1605512282::1770972002::1::::<><><>0<>0<>47f3f2e68b7e8afa1ced52ddece88240<>res://.godot/imported/Surface_Layer1.png-535170477c9322b39e7d9821b11c4df4.ctex::
+Surface_Layer2.png::CompressedTexture2D::3736214130035039232::1605512494::1770972002::1::::<><><>0<>0<>9cd34a5b18beab8bf43d6f97261cb196<>res://.godot/imported/Surface_Layer2.png-d252f21dd316e2eaf7292015af3adf7d.ctex::
+Surface_Layer3.png::CompressedTexture2D::8513786827635333059::1605512516::1770972002::1::::<><><>0<>0<>51e79304493d72df4a3e63610f87cda5<>res://.godot/imported/Surface_Layer3.png-f6226f3676b9fe3f66edb4f4d4e4d445.ctex::
+Surface_Layer4.png::CompressedTexture2D::7440441374820870793::1605513262::1770972002::1::::<><><>0<>0<>488705acdf52939120eab580e5147e5b<>res://.godot/imported/Surface_Layer4.png-25af70cb780aa6e2520e28d70ad1c0fd.ctex::
+::res://assets/Lunar Lander Upload/Moon Tiles/::1770972002
+TileSheet-v1.png::CompressedTexture2D::536885850997472637::1606188212::1770972002::1::::<><><>0<>0<>e8b76235ea3e0e40e5ef3cdf1eb36f72<>res://.godot/imported/TileSheet-v1.png-a8409a4a0758355fe748bf245d86cf63.ctex::
+::res://assets/Lunar Lander Upload/Ships/::1770972002
+Guns.png::CompressedTexture2D::3052365076959071660::1606189144::1770972002::1::::<><><>0<>0<>a05f3c6aec9aed6095ba3d6246e9838b<>res://.godot/imported/Guns.png-c7915c6818d63cf64d5c47b6d441b787.ctex::
+Missiles.png::CompressedTexture2D::4666765200013159943::1605580532::1770972002::1::::<><><>0<>0<>092bd75c9bd343ab855794b33f68f4ef<>res://.godot/imported/Missiles.png-74727d843772579caaf5689e17a63052.ctex::
+Spaceships.png::CompressedTexture2D::1071688878361611045::1605580020::1770972002::1::::<><><>0<>0<>728fecbddacb8b473b6de842fda56b17<>res://.godot/imported/Spaceships.png-470f72c300e4c0621b904c8287c92d04.ctex::
+Spaceships_LightMask.png::CompressedTexture2D::5017239372172701106::1605579842::1770972002::1::::<><><>0<>0<>a40cf4625725d772591af87ff8ddccc1<>res://.godot/imported/Spaceships_LightMask.png-37f91bf027efa5048e53f1fb4fceba38.ctex::
+Tracked_Vehicle.png::CompressedTexture2D::6699035887999479949::1605510434::1770972002::1::::<><><>0<>0<>91543c379f996fe1f14ab62344b2d82b<>res://.godot/imported/Tracked_Vehicle.png-33549390071838fd559e744579b633ec.ctex::
+Turrets.png::CompressedTexture2D::7364971757885458841::1606107772::1770972002::1::::<><><>0<>0<>56e1fc343ef568f489d7768ab398c92b<>res://.godot/imported/Turrets.png-47233c8980be1837a7c738a8e6748357.ctex::
+::res://assets/Lunar Lander Upload/Space Background/::1770972002
+Asteroids.png::CompressedTexture2D::3356630882487649428::1606190806::1770972002::1::::<><><>0<>0<>b0b8725dcffc6b3997223127708f7e26<>res://.godot/imported/Asteroids.png-5ff9e3ff6299efe7b04bdf63149b8234.ctex::
+Asteroids_Foreground.png::CompressedTexture2D::6902905605498080945::1606190502::1770972002::1::::<><><>0<>0<>74ffe6db03b64092c5a642b353d2ec21<>res://.godot/imported/Asteroids_Foreground.png-f2a370b3bb4bebafa983f5a822d981f8.ctex::
+debris.png::CompressedTexture2D::7788562834487243629::1606193356::1770972002::1::::<><><>0<>0<>5d0f6664e1d5dab24a7d70309febb9e6<>res://.godot/imported/debris.png-ed393d0ffb097165d7e4708414ca0fd0.ctex::
+Star_Tiles.png::CompressedTexture2D::1147673642372039680::1605513498::1770972002::1::::<><><>0<>0<>ea1f3e2932dded8d1c2e65090bb28e13<>res://.godot/imported/Star_Tiles.png-47024758595ab8fd24680a23b6567606.ctex::
+::res://assets/Lunar Lander Upload/UI/::1770972002
+Crew_Counter.png::CompressedTexture2D::8862562250653856271::1605598322::1770972002::1::::<><><>0<>0<>d510b2854a900d7d6f5f4fa77d9477f0<>res://.godot/imported/Crew_Counter.png-bbf07554052185146db69565077230f9.ctex::
+Crew_Icon.png::CompressedTexture2D::369985374498185524::1605598258::1770972001::1::::<><><>0<>0<>3875479735bd13add837bea9b9ac34cb<>res://.godot/imported/Crew_Icon.png-4095f3fb428abfe510d125befe14fdcc.ctex::
+Fuel_Bar.png::CompressedTexture2D::7208847623876352657::1605598214::1770972001::1::::<><><>0<>0<>9fc2bac775a1060f9b8b45851d93dfa0<>res://.godot/imported/Fuel_Bar.png-5c27700de9199f11f50cceee4a795d69.ctex::
+Hull_Bar.png::CompressedTexture2D::1170246132498473862::1605598186::1770972001::1::::<><><>0<>0<>856dde5d085f7f6f74db646a8abdbfa4<>res://.godot/imported/Hull_Bar.png-3d4910fc049c9b58e28f43b3020c56ae.ctex::
+Missiles_Icon.png::CompressedTexture2D::4902757246802244500::1605598360::1770972001::1::::<><><>0<>0<>fd7ba1b6f620e4a6cccd28011db257c3<>res://.godot/imported/Missiles_Icon.png-cbdfc6e11e1b32b6077f77d2ae2bda8a.ctex::
+Missile_Counter.png::CompressedTexture2D::3998059034871319686::1605598422::1770972001::1::::<><><>0<>0<>4569205e6f213082c65ac07f8e10213f<>res://.godot/imported/Missile_Counter.png-356133dfeda66bcddeb052bc84ba6e70.ctex::
+Radar_Frame.png::CompressedTexture2D::4058363787197958438::1605598490::1770972001::1::::<><><>0<>0<>2a5c44694e1f55e8cd3230923e06c4e3<>res://.godot/imported/Radar_Frame.png-26f9ffbf3058afe449cd864608f5d949.ctex::
+Velocity_Gauges.png::CompressedTexture2D::2273999675170886828::1605598598::1770972001::1::::<><><>0<>0<>52a34a31917b7640270bad676ac3646d<>res://.godot/imported/Velocity_Gauges.png-083803d26b0cb4ee9ef82f64f3c87868.ctex::
+::res://audio/::1771539711
+Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3::AudioStreamMP3::6296896191893730541::1771539695::1771539711::1::::<><><>0<>0<>2e40c44e35c88d4084eaabd2d3c18ce5<>res://.godot/imported/Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3-196cff98bd5484a1323aaefc50a69e0e.mp3str::
+Laser Gun Sound Effect (mp3cut.net).mp3::AudioStreamMP3::5614807219234932137::1771539647::1771539711::1::::<><><>0<>0<>cd0a2abb48844a3086c6c9d5a56826fc<>res://.godot/imported/Laser Gun Sound Effect (mp3cut.net).mp3-111bea208a0ea4d6abbd46bd03fa9abc.mp3str::
+::res://scenes/::1771539835
+asteroid.tscn::PackedScene::6409243019091015459::1771478426::0::1::::<><><>0<>0<><>::uid://l26d4s3unv40::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png
+::res://scenes/shooter/::1771539736
+asteroid.tscn::PackedScene::-1::1771439040::0::1::::<><><>0<>0<><>::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png<>res://scripts/shooter/asteroid.gd
+boss_enemy.tscn::PackedScene::-1::1771476256::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_green.png<>res://scripts/shooter/boss_enemy.gd
+bullet.tscn::PackedScene::-1::1771439019::0::1::::<><><>0<>0<><>::res://assets/playerShip1_blue.png<>res://scripts/shooter/bullet.gd
+enemy_bullet.tscn::PackedScene::-1::1771439038::0::1::::<><><>0<>0<><>::res://scripts/shooter/enemy_bullet.gd
+enemy_shooter.tscn::PackedScene::-1::1771439034::0::1::::<><><>0<>0<><>::res://assets/playerShip1_green.png<>res://scripts/shooter/enemy_shooter.gd
+enemy_straight.tscn::PackedScene::-1::1771439027::0::1::::<><><>0<>0<><>::res://assets/playerShip1_green.png<>res://scripts/shooter/enemy_straight.gd
+enemy_zigzag.tscn::PackedScene::-1::1771439030::0::1::::<><><>0<>0<><>::res://assets/playerShip1_green.png<>res://scripts/shooter/enemy_zigzag.gd
+explosion.tscn::PackedScene::-1::1771474816::0::1::::<><><>0<>0<><>::res://scripts/shooter/explosion.gd
+parallax_bg.tscn::PackedScene::-1::1771537080::0::1::::<><><>0<>0<><>::uid://c6r6e8n7n8n8::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png<>uid://d1a1a1a1a1a1::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png
+shooter_player.tscn::PackedScene::5532717395033169904::1771539895::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png<>uid://cs35d14ayvgbq::::res://scripts/shooter/shooter_player.gd<>uid://cl84b4cyd1vn2::::res://audio/Laser Gun Sound Effect (mp3cut.net).mp3<>uid://cvyi7wdlmj0r6::::res://audio/Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3
+shooter_world.tscn::PackedScene::4914089763782978376::1771539886::0::1::::<><><>0<>0<><>::res://scenes/shooter/shooter_player.tscn<>uid://dlv2kbf15724q::::res://scripts/shooter/wave_spawner.gd<>uid://b6lbr1vyk7ova::::res://scripts/game_controller.gd<>uid://bxcxada8ud0pl::::res://scripts/ui/hud.gd<>uid://ccy313a1khlax::::res://scripts/ui/transition_effect.gd<>uid://btp388haparnk::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png<>res://scenes/shooter/parallax_bg.tscn<>uid://bma1ufgl4rls1::::res://scripts/shooter/parallax_scroll.gd<>res://scripts/shooter/main_camera.gd
+::res://scenes/ui/::1771538847
+game_over_screen.tscn::PackedScene::-1::1771439148::0::1::::<><><>0<>0<><>::res://scripts/ui/game_over_screen.gd
+main_menu.tscn::PackedScene::5129140847870031369::1771538847::0::1::::<><><>0<>0<><>::uid://g74j7g6klvlj::::res://scripts/ui/main_menu.gd
+pause_menu.tscn::PackedScene::593876304119185063::1771536639::0::1::::<><><>0<>0<><>::uid://k3vqadiqe6s0::::res://scripts/ui/pause_menu.gd
+victory_screen.tscn::PackedScene::-1::1771439149::0::1::::<><><>0<>0<><>::res://scripts/ui/victory_screen.gd
+::res://scripts/::1771474557
+game_controller.gd::GDScript::4585075466408996834::1771538311::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/autoloads/::1771474557
+audio_manager.gd::GDScript::2159593222009846967::1771474241::0::1::::<>Node<><>0<>0<><>::
+event_bus.gd::GDScript::2586666870485166353::1771476252::0::1::::<>Node<><>0<>0<><>::
+game_manager.gd::GDScript::3491725865543346550::1771538479::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/shooter/::1771539863
+asteroid.gd::GDScript::2433564202526825102::1771539281::0::1::::<>Area2D<><>0<>0<><>::
+boss_enemy.gd::GDScript::2718134443789099329::1771539337::0::1::::<>EnemyBase<><>0<>0<><>::
+bullet.gd::GDScript::1806029537027705788::1771439198::0::1::::<>Area2D<><>0<>0<><>::
+enemy_base.gd::GDScript::7422321143125079964::1771474818::0::1::::EnemyBase<>Area2D<><>0<>0<><>::
+enemy_bullet.gd::GDScript::2811489106993735738::1771537228::0::1::::<>Area2D<><>0<>0<><>::
+enemy_shooter.gd::GDScript::7039934636856340157::1771438916::0::1::::<>EnemyBase<><>0<>0<><>::
+enemy_straight.gd::GDScript::1927455034397241115::1771438910::0::1::::<>EnemyBase<><>0<>0<><>::
+enemy_zigzag.gd::GDScript::6651115427487768409::1771438913::0::1::::<>EnemyBase<><>0<>0<><>::
+explosion.gd::GDScript::2040864653009359843::1771474814::0::1::::<>CPUParticles2D<><>0<>0<><>::
+main_camera.gd::GDScript::7666282302837933675::1771539863::0::1::::<>Camera2D<><>0<>0<><>::
+parallax_scroll.gd::GDScript::3230301437464317794::1771476224::0::1::::<>ParallaxBackground<><>0<>0<><>::
+shooter_player.gd::GDScript::6095871407588503602::1771539912::0::1::::<>CharacterBody2D<><>0<>0<><>::
+wave_spawner.gd::GDScript::7976348542146731446::1771539279::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/ui/::1771539020
+game_over_screen.gd::GDScript::296381298527990674::1771438988::0::1::::<>Control<><>0<>0<><>::
+hud.gd::GDScript::4006289492805887589::1771539020::0::1::::<>CanvasLayer<><>0<>0<><>::
+main_menu.gd::GDScript::488971706331828267::1771476290::0::1::::<>Control<><>0<>0<><>::
+pause_menu.gd::GDScript::760994648064043353::1771536715::0::1::::<>Control<><>0<>0<><>::
+transition_effect.gd::GDScript::4964512099047466075::1771538321::0::1::::<>CanvasLayer<><>0<>0<><>::
+victory_screen.gd::GDScript::6341943972226237982::1771438991::0::1::::<>Control<><>0<>0<><>::
+::res://shaders/::1771539736
+hit_flash.gdshader::Shader::8663113420065344440::1771539736::0::1::::<><><>0<>0<><>::
+transition.gdshader::Shader::7081769739289073486::1771476284::0::1::::<><><>0<>0<><>::

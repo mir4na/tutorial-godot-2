@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://ccaolttejigmi"]
+
+[ext_resource type="PackedScene" uid="uid://ck3dburol747m" path="res://scenes/shooter/shooter_player.tscn" id="1_player"]
+[ext_resource type="Script" uid="uid://dlv2kbf15724q" path="res://scripts/shooter/wave_spawner.gd" id="2_spawner"]
+[ext_resource type="Script" uid="uid://b6lbr1vyk7ova" path="res://scripts/game_controller.gd" id="3_controller"]
+[ext_resource type="Script" uid="uid://bxcxada8ud0pl" path="res://scripts/ui/hud.gd" id="4_hud"]
+[ext_resource type="Script" uid="uid://ccy313a1khlax" path="res://scripts/ui/transition_effect.gd" id="5_transition"]
+[ext_resource type="Texture2D" uid="uid://btp388haparnk" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="6_bg"]
+[ext_resource type="PackedScene" path="res://scenes/shooter/parallax_bg.tscn" id="7_parallax"]
+[ext_resource type="Script" uid="uid://bma1ufgl4rls1" path="res://scripts/shooter/parallax_scroll.gd" id="8_scroll"]
+[ext_resource type="Script" uid="uid://dhhusxgmm6hp0" path="res://scripts/shooter/main_camera.gd" id="9_camera"]
+
+[node name="ShooterWorld" type="Node" unique_id=134016208]
+script = ExtResource("3_controller")
+
+[node name="MainCamera" type="Camera2D" parent="." unique_id=707468404]
+position = Vector2(960, 540)
+script = ExtResource("9_camera")
+
+[node name="ParallaxBackground" parent="." unique_id=496684314 instance=ExtResource("7_parallax")]
+script = ExtResource("8_scroll")
+
+[node name="Player" parent="." unique_id=1624611116 instance=ExtResource("1_player")]
+position = Vector2(960, 900)
+scale = Vector2(1.8, 1.8)
+
+[node name="WaveSpawner" type="Node2D" parent="." unique_id=279762409]
+script = ExtResource("2_spawner")
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1580021917]
+script = ExtResource("4_hud")
+
+[node name="MarginContainer" type="MarginContainer" parent="HUD" unique_id=1793151362]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 40.0
+grow_horizontal = 2
+scale = Vector2(1.5, 1.5)
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 16
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUD/MarginContainer" unique_id=1311371685]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="HealthLabel" type="Label" parent="HUD/MarginContainer/HBoxContainer" unique_id=1755113928]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 1, 0.3, 1)
+theme_override_font_sizes/font_size = 18
+text = "HP: 5/5"
+
+[node name="ScoreLabel" type="Label" parent="HUD/MarginContainer/HBoxContainer" unique_id=1916360761]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6, 0.8, 1, 1)
+theme_override_font_sizes/font_size = 18
+text = "SCORE: 0"
+
+[node name="BossContainer" type="VBoxContainer" parent="HUD" unique_id=2066963903]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 1000.0
+offset_right = 200.0
+offset_bottom = 1040.0
+grow_horizontal = 2
+
+[node name="BossLabel" type="Label" parent="HUD/BossContainer" unique_id=1791732547]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "UNKNOWN THREAT"
+horizontal_alignment = 1
+
+[node name="BossHealthBar" type="ProgressBar" parent="HUD/BossContainer" unique_id=648382285]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+value = 100.0
+show_percentage = false
+
+[node name="MissionLabel" type="Label" parent="HUD" unique_id=2066963904]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -100.0
+offset_right = 200.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 32
+text = "MISSION START"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TransitionEffect" type="CanvasLayer" parent="." unique_id=1081576043]
+layer = 10
+script = ExtResource("5_transition")
+
+[node name="ColorRect" type="ColorRect" parent="TransitionEffect" unique_id=1904443432]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0)
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=1725064962]
+position = Vector2(961, 898)
