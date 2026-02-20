@@ -1,20 +1,24 @@
 [gd_scene format=3 uid="uid://w5jb7ky8uyhe"]
 
 [ext_resource type="Script" uid="uid://mbsxey2r8pcm" path="res://scripts/shooter/enemy_kamikaze.gd" id="1_script"]
-[ext_resource type="Texture2D" uid="uid://dh610bbucs6rh" path="res://assets/fasilkom.png" id="2_wqcfx"]
+[ext_resource type="AudioStream" uid="uid://cpnaa2us0gb8" path="res://audio/Explosion Sound Effects (mp3cut.net).mp3" id="2_53nmt"]
+[ext_resource type="Texture2D" uid="uid://ch5qg5hs4rqq7" path="res://assets/catto.jpeg" id="3_53nmt"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_53nmt"]
-radius = 37.01351
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wqcfx"]
+size = Vector2(80, 114)
 
 [node name="EnemyKamikaze" type="Area2D" unique_id=1028709362]
 collision_layer = 8
 collision_mask = 6
 script = ExtResource("1_script")
+explosion_sfx = ExtResource("2_53nmt")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1148390696]
-modulate = Color(0, 0, 1, 1)
-scale = Vector2(0.56, 0.5322581)
-texture = ExtResource("2_wqcfx")
+modulate = Color(0.4509804, 1, 1, 1)
+position = Vector2(1.500001, 0)
+scale = Vector2(0.34468088, 0.5322581)
+texture = ExtResource("3_53nmt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1602849323]
-shape = SubResource("CircleShape2D_53nmt")
+position = Vector2(3, 0)
+shape = SubResource("RectangleShape2D_wqcfx")

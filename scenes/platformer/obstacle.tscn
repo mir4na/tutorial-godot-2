@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://c27fm8jl4efnj"]
+
+[ext_resource type="Script" path="res://scripts/platformer/obstacle.gd" id="1_gjqkf"]
+[ext_resource type="Texture2D" uid="uid://vblxaut0p8am" path="res://assets/Lunar Lander Upload/Effects/Fx_03.png" id="2_7ilpa"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j60r8"]
+atlas = ExtResource("2_7ilpa")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uqoh2"]
+atlas = ExtResource("2_7ilpa")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_78f3i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j60r8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uqoh2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 50.0
+}]
+
+[node name="Area2D" type="Area2D" unique_id=529093205]
+collision_mask = 3
+script = ExtResource("1_gjqkf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1807138022]
+rotation = -1.5707964
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_78f3i")
+autoplay = "default"
+frame_progress = 0.55104774
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1230590359]
+polygon = PackedVector2Array(-23, 11, -1, 29, 23, 10, 8, 10, 0, -23, -12, 8)

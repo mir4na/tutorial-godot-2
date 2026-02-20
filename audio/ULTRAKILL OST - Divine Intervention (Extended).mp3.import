@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://36n4gah746qx"
+path="res://.godot/imported/ULTRAKILL OST - Divine Intervention (Extended).mp3-72236fed9178e96e92a87b7aa3d56484.mp3str"
+
+[deps]
+
+source_file="res://audio/ULTRAKILL OST - Divine Intervention (Extended).mp3"
+dest_files=["res://.godot/imported/ULTRAKILL OST - Divine Intervention (Extended).mp3-72236fed9178e96e92a87b7aa3d56484.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

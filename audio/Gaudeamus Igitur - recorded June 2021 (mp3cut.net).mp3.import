@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbasd3uwuy53e"
+path="res://.godot/imported/Gaudeamus Igitur - recorded June 2021 (mp3cut.net).mp3-7822fa5a1d41ec2f52f47779c6a629f2.mp3str"
+
+[deps]
+
+source_file="res://audio/Gaudeamus Igitur - recorded June 2021 (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/Gaudeamus Igitur - recorded June 2021 (mp3cut.net).mp3-7822fa5a1d41ec2f52f47779c6a629f2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

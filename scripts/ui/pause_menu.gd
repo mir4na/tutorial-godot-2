@@ -1,4 +1,4 @@
-extends Control
+extends CanvasLayer
 
 func _ready() -> void:
 	hide()
@@ -18,10 +18,8 @@ func _pause() -> void:
 	get_tree().paused = true
 	show()
 
-
 func _on_resume_button_pressed() -> void:
 	_resume()
-
 
 func _on_quit_button_pressed() -> void:
 	get_tree().paused = false

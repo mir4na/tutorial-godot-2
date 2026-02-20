@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://dr6m0x1q8c8v"]
+
+[ext_resource type="PackedScene" uid="uid://dp6m0x1q8c8v" path="res://scenes/platformer/platformer_player.tscn" id="1_player"]
+[ext_resource type="Script" uid="uid://b6lbr1vyk7ova" path="res://scripts/game_controller.gd" id="1_script"]
+[ext_resource type="PackedScene" uid="uid://br6m0x1q8c8v" path="res://scenes/platformer/platform.tscn" id="2_platform"]
+[ext_resource type="PackedScene" uid="uid://cr6m0x1q8c8v" path="res://scenes/platformer/objective_area.tscn" id="3_objective"]
+[ext_resource type="Texture2D" uid="uid://d1kmkfqwrgk66" path="res://assets/Dynamic Space Background FREE/Nebula Blue.png" id="4_bg"]
+[ext_resource type="PackedScene" uid="uid://c27fm8jl4efnj" path="res://scenes/platformer/obstacle.tscn" id="5_sqgkf"]
+[ext_resource type="Script" uid="uid://ccy313a1khlax" path="res://scripts/ui/transition_effect.gd" id="6_transition"]
+
+[node name="Level1" type="Node2D" unique_id=538968848]
+script = ExtResource("1_script")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2130282393]
+layer = -1
+
+[node name="Background" type="TextureRect" parent="CanvasLayer" unique_id=1607812677]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_bg")
+stretch_mode = 1
+
+[node name="Platforms" type="Node2D" parent="." unique_id=982404861]
+
+[node name="Platform" parent="Platforms" unique_id=1129032849 instance=ExtResource("2_platform")]
+position = Vector2(245, 874)
+scale = Vector2(10, 1)
+
+[node name="Platform2" parent="Platforms" unique_id=1533938431 instance=ExtResource("2_platform")]
+position = Vector2(846, 757)
+scale = Vector2(5, 1)
+
+[node name="Platform3" parent="Platforms" unique_id=497560871 instance=ExtResource("2_platform")]
+position = Vector2(1302, 677)
+scale = Vector2(5, 1)
+
+[node name="Platform4" parent="Platforms" unique_id=264897540 instance=ExtResource("2_platform")]
+position = Vector2(1741, 590)
+scale = Vector2(5, 1)
+
+[node name="Platform5" parent="Platforms" unique_id=1055182208 instance=ExtResource("2_platform")]
+position = Vector2(1336, 493)
+scale = Vector2(3, 1)
+
+[node name="Platform6" parent="Platforms" unique_id=96716353 instance=ExtResource("2_platform")]
+position = Vector2(957, 451)
+scale = Vector2(5, 1)
+
+[node name="Platform7" parent="Platforms" unique_id=1825907337 instance=ExtResource("2_platform")]
+position = Vector2(1716, 310)
+scale = Vector2(3, 1)
+
+[node name="Platform8" parent="Platforms" unique_id=1513997406 instance=ExtResource("2_platform")]
+position = Vector2(1125, 166)
+scale = Vector2(3, 1)
+
+[node name="Platform9" parent="Platforms" unique_id=412573364 instance=ExtResource("2_platform")]
+position = Vector2(575, 362)
+scale = Vector2(3, 1)
+
+[node name="Platform10" parent="Platforms" unique_id=747360551 instance=ExtResource("2_platform")]
+position = Vector2(1426, 110)
+scale = Vector2(3, 1)
+
+[node name="Platform11" parent="Platforms" unique_id=1254601955 instance=ExtResource("2_platform")]
+position = Vector2(842, 248)
+scale = Vector2(2, 1)
+
+[node name="ObjectiveArea" parent="." unique_id=1668970760 instance=ExtResource("3_objective")]
+position = Vector2(1716, 245)
+next_level = "res://scenes/shooter/level_2.tscn"
+
+[node name="PlatformerPlayer" parent="." unique_id=1228159762 instance=ExtResource("1_player")]
+position = Vector2(180, 780)
+
+[node name="Obstacle1" parent="." unique_id=529093205 instance=ExtResource("5_sqgkf")]
+position = Vector2(1007, 691)
+
+[node name="TransitionEffect" type="CanvasLayer" parent="." unique_id=1081576043]
+layer = 10
+script = ExtResource("6_transition")
+
+[node name="ColorRect" type="ColorRect" parent="TransitionEffect" unique_id=1904443432]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0)

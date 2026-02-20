@@ -1,8 +1,8 @@
 extends CanvasLayer
 
-@onready var health_label: Label = $MarginContainer/HBoxContainer/HealthLabel
-@onready var lives_label: Label = $MarginContainer/HBoxContainer/LivesLabel
-@onready var score_label: Label = $MarginContainer/HBoxContainer/ScoreLabel
+@onready var health_label: Label = $HealthLabel
+@onready var lives_label: Label = $LivesLabel
+@onready var score_label: Label = $ScoreLabel
 
 @onready var boss_health_bar: ProgressBar = $BossContainer/BossHealthBar
 @onready var mission_label: Label = $MissionLabel

@@ -1,21 +1,23 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene format=3 uid="uid://m25it0slfuou"]
 
-[ext_resource type="Texture2D" path="res://assets/playerShip1_green.png" id="1_sprite"]
-[ext_resource type="Script" path="res://scripts/shooter/enemy_straight.gd" id="2_script"]
+[ext_resource type="Texture2D" uid="uid://3ruxfsvp87ub" path="res://assets/playerShip1_green.png" id="1_sprite"]
+[ext_resource type="AudioStream" uid="uid://cpnaa2us0gb8" path="res://audio/Explosion Sound Effects (mp3cut.net).mp3" id="2_3wpbx"]
+[ext_resource type="Script" uid="uid://2pw5xwd6y452" path="res://scripts/shooter/enemy_straight.gd" id="2_script"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_enemy"]
 radius = 20.0
 
-[node name="EnemyStraight" type="Area2D"]
+[node name="EnemyStraight" type="Area2D" unique_id=753038710]
 collision_layer = 8
 collision_mask = 4
 script = ExtResource("2_script")
+explosion_sfx = ExtResource("2_3wpbx")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1585714634]
+modulate = Color(1, 0.3, 0.3, 1)
 rotation = 3.14159
 scale = Vector2(0.6, 0.6)
-modulate = Color(1, 0.3, 0.3, 1)
 texture = ExtResource("1_sprite")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=339537025]
 shape = SubResource("CircleShape2D_enemy")

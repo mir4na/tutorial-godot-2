@@ -8,5 +8,4 @@ func _ready() -> void:
 
 func _on_start_pressed() -> void:
 	GameManager.reset_game()
-	get_tree().change_scene_to_file("res://scenes/shooter/shooter_world.tscn")
-
+	get_tree().change_scene_to_file("res://scenes/platformer/level_1.tscn")

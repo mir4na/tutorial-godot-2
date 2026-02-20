@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://dgkgiu5h4d60p"]
 
 [ext_resource type="Texture2D" uid="uid://3ruxfsvp87ub" path="res://assets/playerShip1_green.png" id="1_sprite"]
+[ext_resource type="AudioStream" uid="uid://cpnaa2us0gb8" path="res://audio/Explosion Sound Effects (mp3cut.net).mp3" id="2_mv711"]
 [ext_resource type="Script" uid="uid://c7kgxvlg5e17v" path="res://scripts/shooter/enemy_shooter.gd" id="2_script"]
 
 [node name="EnemyShooter" type="Area2D" unique_id=328153220]
 collision_layer = 8
 collision_mask = 4
 script = ExtResource("2_script")
+explosion_sfx = ExtResource("2_mv711")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2085691324]
 modulate = Color(0.8, 0.2, 1, 1)

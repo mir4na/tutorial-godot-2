@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bnlq7qembnq3h"
+path="res://.godot/imported/Victory Sound Effect - Der Test.mp3-8e3b70c7c31db69a976e9f0b1c867c7a.mp3str"
+
+[deps]
+
+source_file="res://audio/Victory Sound Effect - Der Test.mp3"
+dest_files=["res://.godot/imported/Victory Sound Effect - Der Test.mp3-8e3b70c7c31db69a976e9f0b1c867c7a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

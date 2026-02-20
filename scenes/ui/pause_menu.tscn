@@ -2,17 +2,19 @@
 
 [ext_resource type="Script" uid="uid://k3vqadiqe6s0" path="res://scripts/ui/pause_menu.gd" id="1_script"]
 
-[node name="PauseMenu" type="Control" unique_id=834205400]
+[node name="PauseMenu" type="CanvasLayer" unique_id=834205400]
 process_mode = 3
+script = ExtResource("1_script")
+
+[node name="Control" type="Control" parent="." unique_id=12345678]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_script")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1559595280]
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=1559595280]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -21,7 +23,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.5)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=851329468]
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=851329468]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -37,19 +39,19 @@ grow_vertical = 2
 theme_override_constants/separation = 20
 alignment = 1
 
-[node name="Label" type="Label" parent="VBoxContainer" unique_id=936131331]
+[node name="Label" type="Label" parent="Control/VBoxContainer" unique_id=936131331]
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
 text = "PAUSED"
 horizontal_alignment = 1
 
-[node name="ResumeButton" type="Button" parent="VBoxContainer" unique_id=910718288]
+[node name="ResumeButton" type="Button" parent="Control/VBoxContainer" unique_id=910718288]
 layout_mode = 2
 text = "RESUME"
 
-[node name="QuitButton" type="Button" parent="VBoxContainer" unique_id=1681801576]
+[node name="QuitButton" type="Button" parent="Control/VBoxContainer" unique_id=1681801576]
 layout_mode = 2
 text = "MAIN MENU"
 
-[connection signal="pressed" from="VBoxContainer/ResumeButton" to="." method="_on_resume_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="Control/VBoxContainer/ResumeButton" to="." method="_on_resume_button_pressed"]
+[connection signal="pressed" from="Control/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

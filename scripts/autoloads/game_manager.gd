@@ -6,6 +6,7 @@ const MAX_LIVES := 1
 var health: int = MAX_HEALTH
 var lives: int = MAX_LIVES
 var score: int = 0
+var next_level_path: String = ""
 
 func _ready() -> void:
 	EventBus.player_hit.connect(_on_player_hit)
