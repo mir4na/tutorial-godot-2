@@ -5,11 +5,18 @@
 [ext_resource type="Script" uid="uid://b6lbr1vyk7ova" path="res://scripts/game_controller.gd" id="3_controller"]
 [ext_resource type="Script" uid="uid://bxcxada8ud0pl" path="res://scripts/ui/hud.gd" id="4_hud"]
 [ext_resource type="Script" uid="uid://ccy313a1khlax" path="res://scripts/ui/transition_effect.gd" id="5_transition"]
-[ext_resource type="Texture2D" uid="uid://d1kmkfqwrgk66" path="res://assets/Dynamic Space Background FREE/Nebula Blue.png" id="5_v0g8n"]
-[ext_resource type="Script" uid="uid://dhhusxgmm6hp0" path="res://scripts/shooter/main_camera.gd" id="9_camera"]
+[ext_resource type="AudioStream" path="res://audio/NoCopyright Dark Suspense Background Music _ Suspense by Soundridemusic - Soundridemusic - No Copyright Music.mp3" id="5_bgm"]
+[ext_resource type="AudioStream" path="res://audio/ULTRAKILL OST - Divine Intervention (Extended).mp3" id="6_boss"]
+[ext_resource type="AudioStream" path="res://audio/Victory Sound Effect - Der Test.mp3" id="7_vic"]
+[ext_resource type="AudioStream" path="res://audio/The Price is Right Losing Horn - Sound Effect (HD) - Gaming Sound FX.mp3" id="8_lose"]
+[ext_resource type="Script" path="res://scripts/shooter/main_camera.gd" id="9_camera"]
 
 [node name="Level2" type="Node" unique_id=134016208]
 script = ExtResource("3_controller")
+level_bgm = ExtResource("5_bgm")
+boss_bgm = ExtResource("6_boss")
+victory_bgm = ExtResource("7_vic")
+game_over_bgm = ExtResource("8_lose")
 
 [node name="MainCamera" type="Camera2D" parent="." unique_id=707468404]
 position = Vector2(960, 540)

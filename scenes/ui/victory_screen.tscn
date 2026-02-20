@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://mg2tmdr6p8cq"]
 
-[ext_resource type="Script" path="res://scripts/ui/victory_screen.gd" id="1_script"]
+[ext_resource type="Script" uid="uid://cwmc5juhuxg6q" path="res://scripts/ui/victory_screen.gd" id="1_script"]
 
-[node name="VictoryScreen" type="Control"]
+[node name="VictoryScreen" type="Control" unique_id=2009420616]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_script")
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Background" type="ColorRect" parent="." unique_id=836135088]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,7 +20,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.02, 0.1, 0.05, 1)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1757760117]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -36,26 +36,26 @@ grow_vertical = 2
 theme_override_constants/separation = 20
 alignment = 1
 
-[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="VBoxContainer" unique_id=481421416]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.2, 1, 0.5, 1)
 theme_override_font_sizes/font_size = 48
 text = "VICTORY!"
 horizontal_alignment = 1
 
-[node name="ScoreLabel" type="Label" parent="VBoxContainer"]
+[node name="ScoreLabel" type="Label" parent="VBoxContainer" unique_id=417214270]
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.9, 0.3, 1)
 theme_override_font_sizes/font_size = 24
 text = "FINAL SCORE: 0"
 horizontal_alignment = 1
 
-[node name="NextLevelButton" type="Button" parent="VBoxContainer"]
+[node name="NextLevelButton" type="Button" parent="VBoxContainer" unique_id=1106086315]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "NEXT LEVEL"
 
-[node name="RestartButton" type="Button" parent="VBoxContainer"]
+[node name="RestartButton" type="Button" parent="VBoxContainer" unique_id=657789435]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "RETURN TO MENU"

@@ -13,12 +13,8 @@ func _ready() -> void:
 	EventBus.boss_health_changed.connect(_on_boss_health_changed)
 	$BossContainer.hide()
 	_update_all()
-	_show_mission_start()
 
-func _show_mission_start() -> void:
-	mission_label.text = "MISSION START\nOBJECTIVE: DEFEAT ALL THE ENEMIES\n[WASD/ARROWS] TO MOVE | [SPACE] TO SHOOT"
-	mission_label.show()
-	await get_tree().create_timer(4.0).timeout
+func hide_mission_label() -> void:
 	var tween = create_tween()
 	tween.tween_property(mission_label, "modulate:a", 0.0, 1.0)
 	await tween.finished

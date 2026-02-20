@@ -44,3 +44,7 @@ res://scenes/platformer/platform.tscn
 res://scenes/platformer/obstacle.tscn
 res://scenes/platformer/platformer_player.tscn
 res://scripts/platformer/obstacle.gd
+res://scripts/platformer/falling_trap.gd
+res://scenes/shooter/asteroid.tscn
+res://scenes/asteroid.tscn
+res://scenes/ui/victory_screen.tscn

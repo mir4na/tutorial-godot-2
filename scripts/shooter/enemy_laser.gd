@@ -1,6 +1,7 @@
 extends EnemyBase
 
 var bullet_scene = preload("res://scenes/shooter/enemy_bullet.tscn")
+@export var laser_sfx: AudioStream
 var attack_timer := 0.0
 var attack_cooldown := 3.0
 
@@ -14,6 +15,7 @@ func _attack(delta: float) -> void:
 	attack_timer += delta
 	if attack_timer >= attack_cooldown:
 		attack_timer = 0.0
+		AudioManager.play_sfx(laser_sfx)
 		_fire_laser()
 
 func _fire_laser() -> void:

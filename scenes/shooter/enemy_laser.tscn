@@ -1,22 +1,24 @@
-[gd_scene format=3 uid="uid://j6fhgorarswe"]
+[gd_scene format=3 uid="uid://dt2q0t23tgybf"]
 
 [ext_resource type="Script" uid="uid://bpet4p7edh2b3" path="res://scripts/shooter/enemy_laser.gd" id="1_script"]
 [ext_resource type="AudioStream" uid="uid://cpnaa2us0gb8" path="res://audio/Explosion Sound Effects (mp3cut.net).mp3" id="2_6eocw"]
 [ext_resource type="Texture2D" uid="uid://dcwu8ypraifim" path="res://assets/icon.png" id="2_6tqgm"]
+[ext_resource type="AudioStream" uid="uid://rr7lqtpyc2wp" path="res://audio/Laser beam - sound effect - Paracetamol Sounds (mp3cut.net).mp3" id="2_8vloc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8p1r2"]
 size = Vector2(34, 38)
 
-[node name="EnemyLaser" type="Area2D" unique_id=1124848260]
+[node name="EnemyLaser" type="Area2D" unique_id=1018289707]
 collision_layer = 8
 collision_mask = 6
 script = ExtResource("1_script")
+laser_sfx = ExtResource("2_8vloc")
 explosion_sfx = ExtResource("2_6eocw")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=397544373]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=983311885]
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("2_6tqgm")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=885589469]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1353149445]
 position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_8p1r2")

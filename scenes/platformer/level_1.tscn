@@ -2,14 +2,25 @@
 
 [ext_resource type="PackedScene" uid="uid://dp6m0x1q8c8v" path="res://scenes/platformer/platformer_player.tscn" id="1_player"]
 [ext_resource type="Script" uid="uid://b6lbr1vyk7ova" path="res://scripts/game_controller.gd" id="1_script"]
+[ext_resource type="AudioStream" uid="uid://bnlq7qembnq3h" path="res://audio/Victory Sound Effect - Der Test.mp3" id="2_4m27k"]
+[ext_resource type="AudioStream" uid="uid://caadclk4dsej1" path="res://audio/[no copyright music]  coffee time  cute vlog music - 슈슈보보 shushubobo.mp3" id="2_hclh0"]
 [ext_resource type="PackedScene" uid="uid://br6m0x1q8c8v" path="res://scenes/platformer/platform.tscn" id="2_platform"]
+[ext_resource type="AudioStream" uid="uid://k6faxwh4kmxk" path="res://audio/The Price is Right Losing Horn - Sound Effect (HD) - Gaming Sound FX.mp3" id="3_37hla"]
 [ext_resource type="PackedScene" uid="uid://cr6m0x1q8c8v" path="res://scenes/platformer/objective_area.tscn" id="3_objective"]
 [ext_resource type="Texture2D" uid="uid://d1kmkfqwrgk66" path="res://assets/Dynamic Space Background FREE/Nebula Blue.png" id="4_bg"]
 [ext_resource type="PackedScene" uid="uid://c27fm8jl4efnj" path="res://scenes/platformer/obstacle.tscn" id="5_sqgkf"]
 [ext_resource type="Script" uid="uid://ccy313a1khlax" path="res://scripts/ui/transition_effect.gd" id="6_transition"]
+[ext_resource type="Script" uid="uid://cf7qrbsn1phwa" path="res://scripts/platformer/falling_trap.gd" id="7_trap"]
+[ext_resource type="AudioStream" uid="uid://c55700r1vkiaa" path="res://audio/Jump Sound Effect - Technical sp (mp3cut.net).mp3" id="8_5d0op"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uqoh2"]
+size = Vector2(91, 151)
 
 [node name="Level1" type="Node2D" unique_id=538968848]
 script = ExtResource("1_script")
+level_bgm = ExtResource("2_hclh0")
+victory_bgm = ExtResource("2_4m27k")
+game_over_bgm = ExtResource("3_37hla")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2130282393]
 layer = -1
@@ -18,6 +29,10 @@ layer = -1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -1052.0
+offset_top = -1508.0
+offset_right = 1124.0
+offset_bottom = 1508.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_bg")
@@ -71,13 +86,17 @@ scale = Vector2(2, 1)
 
 [node name="ObjectiveArea" parent="." unique_id=1668970760 instance=ExtResource("3_objective")]
 position = Vector2(1716, 245)
-next_level = "res://scenes/shooter/level_2.tscn"
+next_level = "res://scenes/shooter/shooter_world.tscn"
 
 [node name="PlatformerPlayer" parent="." unique_id=1228159762 instance=ExtResource("1_player")]
 position = Vector2(180, 780)
+jump_sfx = ExtResource("8_5d0op")
 
 [node name="Obstacle1" parent="." unique_id=529093205 instance=ExtResource("5_sqgkf")]
-position = Vector2(1007, 691)
+position = Vector2(868, 692)
+
+[node name="Obstacle2" parent="." unique_id=607450506 instance=ExtResource("5_sqgkf")]
+position = Vector2(1031, 395)
 
 [node name="TransitionEffect" type="CanvasLayer" parent="." unique_id=1081576043]
 layer = 10
@@ -90,3 +109,42 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0)
+
+[node name="Label" type="Label" parent="." unique_id=1997284635]
+offset_left = 812.0
+offset_top = 626.0
+offset_right = 928.0
+offset_bottom = 649.0
+text = "Do NOT Touch!"
+
+[node name="Label2" type="Label" parent="." unique_id=1973661347]
+offset_left = 185.0
+offset_top = 560.0
+offset_right = 498.0
+offset_bottom = 647.0
+theme_override_font_sizes/font_size = 30
+text = "Easy platformer level,
+hope you enjoy it"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TriggerObstacle" type="Area2D" parent="." unique_id=1817197897 node_paths=PackedStringArray("target_obstacle")]
+collision_layer = 0
+collision_mask = 3
+script = ExtResource("7_trap")
+target_obstacle = NodePath("../FallingObstacle")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerObstacle" unique_id=1668891931]
+position = Vector2(727, 281.5)
+shape = SubResource("RectangleShape2D_uqoh2")
+
+[node name="FallingObstacle" parent="." unique_id=880391828 instance=ExtResource("5_sqgkf")]
+position = Vector2(727, -2000)
+rotation = 3.1415927
+scale = Vector2(5, 5)
+
+[node name="TriggerObstacle2" type="Area2D" parent="." unique_id=769227078]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerObstacle2" unique_id=1724984101]
+position = Vector2(727, 281.5)
+shape = SubResource("RectangleShape2D_uqoh2")

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cr6m0x1q8c8v"]
 
 [ext_resource type="Script" uid="uid://d31clqoqnrqxt" path="res://scripts/platformer/objective_area.gd" id="1_script"]
-[ext_resource type="Texture2D" uid="uid://d1kmkfqwrgk66" path="res://assets/Dynamic Space Background FREE/Nebula Blue.png" id="2_texture"]
+[ext_resource type="Texture2D" uid="uid://dh610bbucs6rh" path="res://assets/fasilkom.png" id="2_td7lc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
 size = Vector2(64, 64)
@@ -11,9 +11,9 @@ collision_mask = 3
 script = ExtResource("1_script")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=982263729]
-modulate = Color(0, 1, 0, 1)
-scale = Vector2(0.02, 0.02)
-texture = ExtResource("2_texture")
+position = Vector2(-0.5000012, 2.999999)
+scale = Vector2(0.39333332, 0.38709676)
+texture = ExtResource("2_td7lc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=445013128]
 shape = SubResource("RectangleShape2D_1")

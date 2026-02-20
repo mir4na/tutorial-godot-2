@@ -7,7 +7,7 @@ var pattern_index := 0
 var angle_offset := 0.0
 
 func _init_enemy() -> void:
-	max_health = 100
+	max_health = 50
 	speed = 50.0
 	points = 5000
 	health = max_health
@@ -71,3 +71,7 @@ func _spawn_bullet(angle: float) -> void:
 func take_damage(amount: int) -> void:
 	super.take_damage(amount)
 	EventBus.boss_health_changed.emit(health, max_health)
+
+func _die() -> void:
+	EventBus.boss_defeated.emit()
+	super._die()

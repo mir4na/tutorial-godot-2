@@ -1,9 +1,9 @@
 res://scenes/shooter/
+res://audio/
+res://scenes/platformer/
+res://scenes/ui/
 /home/mir4na/ameame/csui/game-dev/tutorial-godot-2/scripts/autoloads/
 res://scripts/platformer/
-res://scenes/platformer/
 res://assets/Lunar Lander Upload/Effects/
-res://scenes/ui/
-res://audio/
 res://scenes/
 res://scripts/

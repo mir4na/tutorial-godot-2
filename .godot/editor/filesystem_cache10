@@ -1,7 +1,9 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771539948
-default_env.tres::Environment::784183765299159521::1771539736::0::1::::<><><>0<>0<><>::
-::res://assets/::1770971968
+::res://::1771591078
+default_env.tres::Environment::784183765299159521::1771591078::0::1::::<><><>0<>0<><>::
+::res://assets/::1771578708
+cat.jpeg::CompressedTexture2D::4681523927005923306::1771566660::1771566981::1::::<><><>0<>0<>c6271c1849dc5e6a87a0b65a5585c974<>res://.godot/imported/cat.jpeg-5e9c21c1630f4b2d2ac8378c0b76f444.ctex::
+catto.jpeg::CompressedTexture2D::5327078379493328728::1771578700::1771578708::1::::<><><>0<>0<>d9f29f32ac71a1ef3721fdd28e22cd43<>res://.godot/imported/catto.jpeg-3886924cf032f2b536f953cf9c3a9f5e.ctex::
 fasilkom.png::CompressedTexture2D::7716203008561212981::1770971552::1770971575::1::::<><><>0<>0<>2c403e24a31ee1c77dc1ec3d8560a0eb<>res://.godot/imported/fasilkom.png-811230bee752126972e823ef8f345618.ctex::
 icon.png::CompressedTexture2D::7346330604504066256::1770971552::1770971575::1::::<><><>0<>0<>20816717a874e0681d7ac925c457cf2e<>res://.godot/imported/icon.png-b6a7fb2db36edd3d95dc42f1dc8c1c5d.ctex::
 meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1770971552::1770971575::1::::<><><>0<>0<>a2435f1099dc54a35a1677dc4de2ace1<>res://.godot/imported/meteorBrown_big1.png-4f51bd2307bfc1514c3fcc74f73cfab3.ctex::
@@ -9,6 +11,14 @@ playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1770971552::1770
 playerShip1_green.png::CompressedTexture2D::2001637748197818689::1770971552::1770971575::1::::<><><>0<>0<>83dc2c1a44f6d900d7c9760e978d906c<>res://.godot/imported/playerShip1_green.png-48682f9d49da962ab563a1bc5b94a765.ctex::
 snow.png::CompressedTexture2D::4888826356960029576::1770971552::1770971575::1::::<><><>0<>0<>67c46f6a53681ee157302841cd852a6b<>res://.godot/imported/snow.png-929e917300e1d7cf8ce88dfddb03947d.ctex::
 stone.png::CompressedTexture2D::6534652574608454091::1770971552::1770971575::1::::<><><>0<>0<>95600c8154288cc19f7214054ae2b43e<>res://.godot/imported/stone.png-3a1875e621a1b764516a9ea0026422f2.ctex::
+::res://assets/Dynamic Space Background FREE/::1771577343
+Nebula Aqua-Pink.png::CompressedTexture2D::1029121055740321680::1515307508::1771577343::1::::<><><>0<>0<>acc714b290491021dc0857e4b17346be<>res://.godot/imported/Nebula Aqua-Pink.png-bd28fe406a816820bb5f756730932ffa.ctex::
+Nebula Blue.png::CompressedTexture2D::9005562513417156325::1509881665::1771577341::1::::<><><>0<>0<>2210e80df0e0f76c6630d4e8b18e3533<>res://.godot/imported/Nebula Blue.png-abda740d66b7195b278207e33f21c020.ctex::
+Nebula Red.png::CompressedTexture2D::5550293598429992456::1509881538::1771577342::1::::<><><>0<>0<>edb7a923d67895e027a6e3c161525558<>res://.godot/imported/Nebula Red.png-0206115114730a20be9178924b843dab.ctex::
+Stars Small_1.png::CompressedTexture2D::5485649963217327245::1509474660::1771577342::1::::<><><>0<>0<>31c56d0363e101114b44ac6dcb315dac<>res://.godot/imported/Stars Small_1.png-5e0ea271b0d6eef8320894c142c6541e.ctex::
+Stars Small_2.png::CompressedTexture2D::6812682068840122711::1509506123::1771577342::1::::<><><>0<>0<>eb161f2ae09e0e8cc36845416d39b346<>res://.godot/imported/Stars Small_2.png-aaef68c178c00797fcc04f482c13ce8d.ctex::
+Stars-Big_1_1_PC.png::CompressedTexture2D::8391583563879789196::1513163260::1771577341::1::::<><><>0<>0<>3590cc28d243cbb6363cc9f4fc24b86f<>res://.godot/imported/Stars-Big_1_1_PC.png-aa4c551355721f01df1fe8d634a335da.ctex::
+Stars-Big_1_2_PC.png::CompressedTexture2D::956323639217518101::1513163137::1771577341::1::::<><><>0<>0<>21cbf410a3b8a517bc2b0da39ce99863<>res://.godot/imported/Stars-Big_1_2_PC.png-c66318f2f292edd69bc4eb9db4712dab.ctex::
 ::res://assets/Foozle_2DS0015_Void_EnvironmentPack/::1660805628
 Readme.txt::TextFile::-1::1660805636::0::1::::<><><>0<>0<><>::
 ::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/::1660805588
@@ -74,7 +84,7 @@ Spaceships.png::CompressedTexture2D::1071688878361611045::1605580020::1770972002
 Spaceships_LightMask.png::CompressedTexture2D::5017239372172701106::1605579842::1770972002::1::::<><><>0<>0<>a40cf4625725d772591af87ff8ddccc1<>res://.godot/imported/Spaceships_LightMask.png-37f91bf027efa5048e53f1fb4fceba38.ctex::
 Tracked_Vehicle.png::CompressedTexture2D::6699035887999479949::1605510434::1770972002::1::::<><><>0<>0<>91543c379f996fe1f14ab62344b2d82b<>res://.godot/imported/Tracked_Vehicle.png-33549390071838fd559e744579b633ec.ctex::
 Turrets.png::CompressedTexture2D::7364971757885458841::1606107772::1770972002::1::::<><><>0<>0<>56e1fc343ef568f489d7768ab398c92b<>res://.godot/imported/Turrets.png-47233c8980be1837a7c738a8e6748357.ctex::
-::res://assets/Lunar Lander Upload/Space Background/::1770972002
+::res://assets/Lunar Lander Upload/Space Background/::1771577262
 Asteroids.png::CompressedTexture2D::3356630882487649428::1606190806::1770972002::1::::<><><>0<>0<>b0b8725dcffc6b3997223127708f7e26<>res://.godot/imported/Asteroids.png-5ff9e3ff6299efe7b04bdf63149b8234.ctex::
 Asteroids_Foreground.png::CompressedTexture2D::6902905605498080945::1606190502::1770972002::1::::<><><>0<>0<>74ffe6db03b64092c5a642b353d2ec21<>res://.godot/imported/Asteroids_Foreground.png-f2a370b3bb4bebafa983f5a822d981f8.ctex::
 debris.png::CompressedTexture2D::7788562834487243629::1606193356::1770972002::1::::<><><>0<>0<>5d0f6664e1d5dab24a7d70309febb9e6<>res://.godot/imported/debris.png-ed393d0ffb097165d7e4708414ca0fd0.ctex::
@@ -88,55 +98,86 @@ Missiles_Icon.png::CompressedTexture2D::4902757246802244500::1605598360::1770972
 Missile_Counter.png::CompressedTexture2D::3998059034871319686::1605598422::1770972001::1::::<><><>0<>0<>4569205e6f213082c65ac07f8e10213f<>res://.godot/imported/Missile_Counter.png-356133dfeda66bcddeb052bc84ba6e70.ctex::
 Radar_Frame.png::CompressedTexture2D::4058363787197958438::1605598490::1770972001::1::::<><><>0<>0<>2a5c44694e1f55e8cd3230923e06c4e3<>res://.godot/imported/Radar_Frame.png-26f9ffbf3058afe449cd864608f5d949.ctex::
 Velocity_Gauges.png::CompressedTexture2D::2273999675170886828::1605598598::1770972001::1::::<><><>0<>0<>52a34a31917b7640270bad676ac3646d<>res://.godot/imported/Velocity_Gauges.png-083803d26b0cb4ee9ef82f64f3c87868.ctex::
-::res://audio/::1771539711
+::res://audio/::1771591156
 Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3::AudioStreamMP3::6296896191893730541::1771539695::1771539711::1::::<><><>0<>0<>2e40c44e35c88d4084eaabd2d3c18ce5<>res://.godot/imported/Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3-196cff98bd5484a1323aaefc50a69e0e.mp3str::
+exp (mp3cut.net).mp3::AudioStreamMP3::4183414833189178578::1771569445::1771569475::1::::<><><>0<>0<>7f4437e3c1e2c12b6aa05df099c2f600<>res://.godot/imported/exp (mp3cut.net).mp3-970c1f1ef1784ebae15496bdf63309ee.mp3str::
+Explosion Sound Effects (mp3cut.net).mp3::AudioStreamMP3::172132717136396803::1771569148::1771569225::1::::<><><>0<>0<>cbd350f4716ecd544718472c6a11c973<>res://.godot/imported/Explosion Sound Effects (mp3cut.net).mp3-3d052e7b6f2892f208ba47eacab078d3.mp3str::
+Gaudeamus Igitur - recorded June 2021 (mp3cut.net).mp3::AudioStreamMP3::4844129976852922868::1771566883::1771566981::1::::<><><>0<>0<>22c8edf6497aefb5903f950c4beada9a<>res://.godot/imported/Gaudeamus Igitur - recorded June 2021 (mp3cut.net).mp3-7822fa5a1d41ec2f52f47779c6a629f2.mp3str::
+Jump Sound Effect - Technical sp (mp3cut.net).mp3::AudioStreamMP3::6942426938320331200::1771590020::1771590045::1::::<><><>0<>0<>e036c23c4d361092d421a0a43f7f43f8<>res://.godot/imported/Jump Sound Effect - Technical sp (mp3cut.net).mp3-92cd8505be03d7da3a3f9304019b14de.mp3str::
+Jump Sound Effect - Technical sp.mp3::AudioStreamMP3::1336480629076901552::1771589913::1771589946::1::::<><><>0<>0<>98c8a21c1216696ec73d6887b1eb0e25<>res://.godot/imported/Jump Sound Effect - Technical sp.mp3-aabc79e874a68ea25bd44e7810fdac2e.mp3str::
+Laser beam - sound effect - Paracetamol Sounds (mp3cut.net).mp3::AudioStreamMP3::1230268221605647639::1771578827::1771578855::1::::<><><>0<>0<>b327922d1bb607dd016656abe28216bf<>res://.godot/imported/Laser beam - sound effect - Paracetamol Sounds (mp3cut.net).mp3-a25f7661a0d7ffb5afb64986375049fe.mp3str::
+Laser beam - sound effect - Paracetamol Sounds.mp3::AudioStreamMP3::4422599095344424994::1771577937::1771577952::1::::<><><>0<>0<>54ad365b4e6065a6a23ad2047edc7e0a<>res://.godot/imported/Laser beam - sound effect - Paracetamol Sounds.mp3-005d0224c07c67b4a9fc29ff8c18de29.mp3str::
 Laser Gun Sound Effect (mp3cut.net).mp3::AudioStreamMP3::5614807219234932137::1771539647::1771539711::1::::<><><>0<>0<>cd0a2abb48844a3086c6c9d5a56826fc<>res://.godot/imported/Laser Gun Sound Effect (mp3cut.net).mp3-111bea208a0ea4d6abbd46bd03fa9abc.mp3str::
-::res://scenes/::1771539835
-asteroid.tscn::PackedScene::6409243019091015459::1771478426::0::1::::<><><>0<>0<><>::uid://l26d4s3unv40::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png
-::res://scenes/shooter/::1771539736
-asteroid.tscn::PackedScene::-1::1771439040::0::1::::<><><>0<>0<><>::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png<>res://scripts/shooter/asteroid.gd
-boss_enemy.tscn::PackedScene::-1::1771476256::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_green.png<>res://scripts/shooter/boss_enemy.gd
-bullet.tscn::PackedScene::-1::1771439019::0::1::::<><><>0<>0<><>::res://assets/playerShip1_blue.png<>res://scripts/shooter/bullet.gd
+NoCopyright Dark Suspense Background Music _ Suspense by Soundridemusic - Soundridemusic - No Copyright Music.mp3::AudioStreamMP3::2834869637982257740::1771587047::1771587519::1::::<><><>0<>0<>9bd8e42d04e6924c04df545639799094<>res://.godot/imported/NoCopyright Dark Suspense Background Music _ Suspense by Soundridemusic - Soundridemusic - No Copyright Music.mp3-c2966f6fd2d348598981bda560907aa2.mp3str::
+Pou music ost - Sky Jump.mp3::AudioStreamMP3::1798720357219674287::1771570141::1771570173::1::::<><><>0<>0<>4ea880dfcc2863b9fd0fd995ef0dba43<>res://.godot/imported/Pou music ost - Sky Jump.mp3-b29c43f1e590b65d587d7ebc9957fb90.mp3str::
+Start Menu - Toby Fox (2).mp3::AudioStreamMP3::4651730697869860521::1771582397::1771582414::1::::<><><>0<>0<>da1310e029ad476a7a8c3cf731644d69<>res://.godot/imported/Start Menu - Toby Fox (2).mp3-bca778948ba96eb5a54bbca40e54783c.mp3str::
+Start Menu - Toby Fox.mp3::AudioStreamMP3::3904316108304620924::1771580654::1771580665::1::::<><><>0<>0<>2b09fc7cbcfe6abb5f799ce3531e6ffd<>res://.godot/imported/Start Menu - Toby Fox.mp3-c83a98224580e820f667b1e3b20b1017.mp3str::
+The Price is Right Losing Horn - Sound Effect (HD) - Gaming Sound FX.mp3::AudioStreamMP3::766188974099969096::1771579044::1771579054::1::::<><><>0<>0<>dffe6a5bdf00fe13bfa5ffc2c7fb91c2<>res://.godot/imported/The Price is Right Losing Horn - Sound Effect (HD) - Gaming Sound FX.mp3-1fca12545bfee8815ffea977a8c36025.mp3str::
+ULTRAKILL OST - Divine Intervention (Extended).mp3::AudioStreamMP3::2030124756672053627::1771569688::1771570173::1::::<><><>0<>0<>2713645bdbebbebf4f4bd9e528ca75c0<>res://.godot/imported/ULTRAKILL OST - Divine Intervention (Extended).mp3-72236fed9178e96e92a87b7aa3d56484.mp3str::
+Victory Sound Effect - Der Test.mp3::AudioStreamMP3::3322613270671311479::1771578896::1771579054::1::::<><><>0<>0<>e0785a1cdbd09817110cb3f18a77541d<>res://.godot/imported/Victory Sound Effect - Der Test.mp3-8e3b70c7c31db69a976e9f0b1c867c7a.mp3str::
+[no copyright music]  coffee time  cute vlog music - 슈슈보보 shushubobo.mp3::AudioStreamMP3::4773027684479555772::1771591143::1771591158::1::::<><><>0<>0<>f72d0fc5d8539a04cdaa6721a21f86e5<>res://.godot/imported/[no copyright music]  coffee time  cute vlog music - 슈슈보보 shushubobo.mp3-d017ad886e4c6c0116ce699742e2c4c5.mp3str::
+::res://scenes/::1771590479
+asteroid.tscn::PackedScene::6409243019091015459::1771590479::0::1::::<><><>0<>0<><>::uid://l26d4s3unv40::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png
+::res://scenes/platformer/::1771591078
+level_1.tscn::PackedScene::247565958853990535::1771591078::0::1::::<><><>0<>0<><>::uid://dp6m0x1q8c8v::::res://scenes/platformer/platformer_player.tscn<>uid://b6lbr1vyk7ova::::res://scripts/game_controller.gd<>uid://bnlq7qembnq3h::::res://audio/Victory Sound Effect - Der Test.mp3<>uid://br6m0x1q8c8v::::res://scenes/platformer/platform.tscn<>uid://k6faxwh4kmxk::::res://audio/The Price is Right Losing Horn - Sound Effect (HD) - Gaming Sound FX.mp3<>uid://cr6m0x1q8c8v::::res://scenes/platformer/objective_area.tscn<>uid://d1kmkfqwrgk66::::res://assets/Dynamic Space Background FREE/Nebula Blue.png<>uid://cbasd3uwuy53e::::res://audio/Gaudeamus Igitur - recorded June 2021 (mp3cut.net).mp3<>uid://c27fm8jl4efnj::::res://scenes/platformer/obstacle.tscn<>uid://ccy313a1khlax::::res://scripts/ui/transition_effect.gd<>uid://cf7qrbsn1phwa::::res://scripts/platformer/falling_trap.gd<>uid://c55700r1vkiaa::::res://audio/Jump Sound Effect - Technical sp (mp3cut.net).mp3
+objective_area.tscn::PackedScene::177377115215958151::1771587338::0::1::::<><><>0<>0<><>::uid://d31clqoqnrqxt::::res://scripts/platformer/objective_area.gd<>uid://dh610bbucs6rh::::res://assets/fasilkom.png
+platform.tscn::PackedScene::107188271577925767::1771584156::0::1::::<><><>0<>0<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
+platformer_player.tscn::PackedScene::243437203345870983::1771590175::0::1::::<><><>0<>0<><>::uid://d1g0b5l1j5y8p::::res://scripts/platformer/platformer_player.gd<>uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
+obstacle.tscn::PackedScene::6734326995946181735::1771584818::0::1::::<><><>0<>0<><>::res://scripts/platformer/obstacle.gd<>uid://vblxaut0p8am::::res://assets/Lunar Lander Upload/Effects/Fx_03.png
+::res://scenes/shooter/::1771590395
+asteroid.tscn::PackedScene::-1::1771590471::0::1::::<><><>0<>0<><>::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png<>res://scripts/shooter/asteroid.gd<>res://audio/Explosion Sound Effects (mp3cut.net).mp3
+boss_enemy.tscn::PackedScene::2955622922382123411::1771590395::0::1::::<><><>0<>0<><>::uid://b7x1arpo1p4r3::::res://assets/cat.jpeg<>uid://beyxjonxj7ceb::::res://scripts/shooter/boss_enemy.gd<>uid://b0uqh4fcw1fpq::::res://audio/exp (mp3cut.net).mp3
+bullet.tscn::PackedScene::-1::1771581776::0::1::::<><><>0<>0<><>::res://assets/playerShip1_blue.png<>res://scripts/shooter/bullet.gd
 enemy_bullet.tscn::PackedScene::-1::1771439038::0::1::::<><><>0<>0<><>::res://scripts/shooter/enemy_bullet.gd
-enemy_shooter.tscn::PackedScene::-1::1771439034::0::1::::<><><>0<>0<><>::res://assets/playerShip1_green.png<>res://scripts/shooter/enemy_shooter.gd
-enemy_straight.tscn::PackedScene::-1::1771439027::0::1::::<><><>0<>0<><>::res://assets/playerShip1_green.png<>res://scripts/shooter/enemy_straight.gd
-enemy_zigzag.tscn::PackedScene::-1::1771439030::0::1::::<><><>0<>0<><>::res://assets/playerShip1_green.png<>res://scripts/shooter/enemy_zigzag.gd
+enemy_kamikaze.tscn::PackedScene::1606635828717920898::1771585502::0::1::::<><><>0<>0<><>::uid://mbsxey2r8pcm::::res://scripts/shooter/enemy_kamikaze.gd<>uid://cpnaa2us0gb8::::res://audio/Explosion Sound Effects (mp3cut.net).mp3<>uid://ch5qg5hs4rqq7::::res://assets/catto.jpeg
+enemy_laser.tscn::PackedScene::696011726179765728::1771587563::0::1::::<><><>0<>0<><>::uid://bpet4p7edh2b3::::res://scripts/shooter/enemy_laser.gd<>uid://cpnaa2us0gb8::::res://audio/Explosion Sound Effects (mp3cut.net).mp3<>uid://dcwu8ypraifim::::res://assets/icon.png
+enemy_shooter.tscn::PackedScene::7601418575924024869::1771585496::0::1::::<><><>0<>0<><>::uid://3ruxfsvp87ub::::res://assets/playerShip1_green.png<>uid://cpnaa2us0gb8::::res://audio/Explosion Sound Effects (mp3cut.net).mp3<>uid://c7kgxvlg5e17v::::res://scripts/shooter/enemy_shooter.gd
+enemy_straight.tscn::PackedScene::899841156546756248::1771585475::0::1::::<><><>0<>0<><>::uid://3ruxfsvp87ub::::res://assets/playerShip1_green.png<>uid://cpnaa2us0gb8::::res://audio/Explosion Sound Effects (mp3cut.net).mp3<>uid://2pw5xwd6y452::::res://scripts/shooter/enemy_straight.gd
+enemy_zigzag.tscn::PackedScene::7023700510899305537::1771585480::0::1::::<><><>0<>0<><>::uid://3ruxfsvp87ub::::res://assets/playerShip1_green.png<>uid://cpnaa2us0gb8::::res://audio/Explosion Sound Effects (mp3cut.net).mp3<>uid://c1035twct0yq8::::res://scripts/shooter/enemy_zigzag.gd
 explosion.tscn::PackedScene::-1::1771474816::0::1::::<><><>0<>0<><>::res://scripts/shooter/explosion.gd
-parallax_bg.tscn::PackedScene::-1::1771537080::0::1::::<><><>0<>0<><>::uid://c6r6e8n7n8n8::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png<>uid://d1a1a1a1a1a1::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png
-shooter_player.tscn::PackedScene::5532717395033169904::1771539895::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png<>uid://cs35d14ayvgbq::::res://scripts/shooter/shooter_player.gd<>uid://cl84b4cyd1vn2::::res://audio/Laser Gun Sound Effect (mp3cut.net).mp3<>uid://cvyi7wdlmj0r6::::res://audio/Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3
-shooter_world.tscn::PackedScene::4914089763782978376::1771539886::0::1::::<><><>0<>0<><>::res://scenes/shooter/shooter_player.tscn<>uid://dlv2kbf15724q::::res://scripts/shooter/wave_spawner.gd<>uid://b6lbr1vyk7ova::::res://scripts/game_controller.gd<>uid://bxcxada8ud0pl::::res://scripts/ui/hud.gd<>uid://ccy313a1khlax::::res://scripts/ui/transition_effect.gd<>uid://btp388haparnk::::res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png<>res://scenes/shooter/parallax_bg.tscn<>uid://bma1ufgl4rls1::::res://scripts/shooter/parallax_scroll.gd<>res://scripts/shooter/main_camera.gd
-::res://scenes/ui/::1771538847
+level_2.tscn::PackedScene::-1::1771590431::0::1::::<><><>0<>0<><>::
+parallax_bg.tscn::PackedScene::-1::1771581776::0::1::::<><><>0<>0<><>::
+shooter_world.tscn::PackedScene::6884988981062288572::1771589535::0::1::::<><><>0<>0<><>::uid://ck3dburol747m::::res://scenes/shooter/shooter_player.tscn<>uid://dlv2kbf15724q::::res://scripts/shooter/wave_spawner.gd<>uid://bgnh5hn0hnl8g::::res://audio/NoCopyright Dark Suspense Background Music _ Suspense by Soundridemusic - Soundridemusic - No Copyright Music.mp3<>uid://b6lbr1vyk7ova::::res://scripts/game_controller.gd<>uid://bnlq7qembnq3h::::res://audio/Victory Sound Effect - Der Test.mp3<>uid://k6faxwh4kmxk::::res://audio/The Price is Right Losing Horn - Sound Effect (HD) - Gaming Sound FX.mp3<>uid://bxcxada8ud0pl::::res://scripts/ui/hud.gd<>uid://ccy313a1khlax::::res://scripts/ui/transition_effect.gd<>uid://d1kmkfqwrgk66::::res://assets/Dynamic Space Background FREE/Nebula Blue.png<>uid://dhhusxgmm6hp0::::res://scripts/shooter/main_camera.gd
+shooter_player.tscn::PackedScene::5532717395033169904::1771584526::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png<>uid://cs35d14ayvgbq::::res://scripts/shooter/shooter_player.gd<>uid://cl84b4cyd1vn2::::res://audio/Laser Gun Sound Effect (mp3cut.net).mp3<>uid://cvyi7wdlmj0r6::::res://audio/Cinematic Boom - sound effect - [High quality] (mp3cut.net).mp3
+::res://scenes/ui/::1771590789
 game_over_screen.tscn::PackedScene::-1::1771439148::0::1::::<><><>0<>0<><>::res://scripts/ui/game_over_screen.gd
-main_menu.tscn::PackedScene::5129140847870031369::1771538847::0::1::::<><><>0<>0<><>::uid://g74j7g6klvlj::::res://scripts/ui/main_menu.gd
-pause_menu.tscn::PackedScene::593876304119185063::1771536639::0::1::::<><><>0<>0<><>::uid://k3vqadiqe6s0::::res://scripts/ui/pause_menu.gd
-victory_screen.tscn::PackedScene::-1::1771439149::0::1::::<><><>0<>0<><>::res://scripts/ui/victory_screen.gd
-::res://scripts/::1771474557
-game_controller.gd::GDScript::4585075466408996834::1771538311::0::1::::<>Node<><>0<>0<><>::
-::res://scripts/autoloads/::1771474557
-audio_manager.gd::GDScript::2159593222009846967::1771474241::0::1::::<>Node<><>0<>0<><>::
-event_bus.gd::GDScript::2586666870485166353::1771476252::0::1::::<>Node<><>0<>0<><>::
-game_manager.gd::GDScript::3491725865543346550::1771538479::0::1::::<>Node<><>0<>0<><>::
-::res://scripts/shooter/::1771539863
-asteroid.gd::GDScript::2433564202526825102::1771539281::0::1::::<>Area2D<><>0<>0<><>::
-boss_enemy.gd::GDScript::2718134443789099329::1771539337::0::1::::<>EnemyBase<><>0<>0<><>::
-bullet.gd::GDScript::1806029537027705788::1771439198::0::1::::<>Area2D<><>0<>0<><>::
-enemy_base.gd::GDScript::7422321143125079964::1771474818::0::1::::EnemyBase<>Area2D<><>0<>0<><>::
-enemy_bullet.gd::GDScript::2811489106993735738::1771537228::0::1::::<>Area2D<><>0<>0<><>::
-enemy_shooter.gd::GDScript::7039934636856340157::1771438916::0::1::::<>EnemyBase<><>0<>0<><>::
-enemy_straight.gd::GDScript::1927455034397241115::1771438910::0::1::::<>EnemyBase<><>0<>0<><>::
-enemy_zigzag.gd::GDScript::6651115427487768409::1771438913::0::1::::<>EnemyBase<><>0<>0<><>::
-explosion.gd::GDScript::2040864653009359843::1771474814::0::1::::<>CPUParticles2D<><>0<>0<><>::
-main_camera.gd::GDScript::7666282302837933675::1771539863::0::1::::<>Camera2D<><>0<>0<><>::
-parallax_scroll.gd::GDScript::3230301437464317794::1771476224::0::1::::<>ParallaxBackground<><>0<>0<><>::
-shooter_player.gd::GDScript::6095871407588503602::1771539912::0::1::::<>CharacterBody2D<><>0<>0<><>::
-wave_spawner.gd::GDScript::7976348542146731446::1771539279::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/ui/::1771539020
-game_over_screen.gd::GDScript::296381298527990674::1771438988::0::1::::<>Control<><>0<>0<><>::
-hud.gd::GDScript::4006289492805887589::1771539020::0::1::::<>CanvasLayer<><>0<>0<><>::
-main_menu.gd::GDScript::488971706331828267::1771476290::0::1::::<>Control<><>0<>0<><>::
-pause_menu.gd::GDScript::760994648064043353::1771536715::0::1::::<>Control<><>0<>0<><>::
-transition_effect.gd::GDScript::4964512099047466075::1771538321::0::1::::<>CanvasLayer<><>0<>0<><>::
-victory_screen.gd::GDScript::6341943972226237982::1771438991::0::1::::<>Control<><>0<>0<><>::
-::res://shaders/::1771539736
-hit_flash.gdshader::Shader::8663113420065344440::1771539736::0::1::::<><><>0<>0<><>::
-transition.gdshader::Shader::7081769739289073486::1771476284::0::1::::<><><>0<>0<><>::
+main_menu.tscn::PackedScene::5129140847870031369::1771587504::0::1::::<><><>0<>0<><>::uid://g74j7g6klvlj::::res://scripts/ui/main_menu.gd<>uid://b7jllbwr3x0mv::::res://audio/Start Menu - Toby Fox (2).mp3
+pause_menu.tscn::PackedScene::593876304119185063::1771587520::0::1::::<><><>0<>0<><>::uid://k3vqadiqe6s0::::res://scripts/ui/pause_menu.gd
+victory_screen.tscn::PackedScene::856326314798706208::1771590789::0::1::::<><><>0<>0<><>::uid://cwmc5juhuxg6q::::res://scripts/ui/victory_screen.gd
+::res://scripts/::1771588362
+game_controller.gd::GDScript::4585075466408996834::1771588755::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/autoloads/::1771581844
+audio_manager.gd::GDScript::2159593222009846967::1771590417::0::1::::<>Node<><>0<>0<><>::
+event_bus.gd::GDScript::2586666870485166353::1771588607::0::1::::<>Node<><>0<>0<><>::
+game_manager.gd::GDScript::3491725865543346550::1771583159::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/platformer/::1771590656
+falling_trap.gd::GDScript::5190847585042756800::1771591057::0::1::::<>Area2D<><>0<>0<><>::
+objective_area.gd::GDScript::9178365435014141625::1771584197::0::1::::<>Area2D<><>0<>0<><>::
+obstacle.gd::GDScript::8104587012036816049::1771584699::0::1::::<>Area2D<><>0<>0<><>::
+platformer_player.gd::GDScript::8200840173302708134::1771589712::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/shooter/::1771590395
+asteroid.gd::GDScript::2433564202526825102::1771581788::0::1::::<>Area2D<><>0<>0<><>::
+boss_enemy.gd::GDScript::2718134443789099329::1771590395::0::1::::<>EnemyBase<><>0<>0<><>::
+bullet.gd::GDScript::1806029537027705788::1771581788::0::1::::<>Area2D<><>0<>0<><>::
+enemy_base.gd::GDScript::7422321143125079964::1771581844::0::1::::EnemyBase<>Area2D<><>0<>0<><>::
+enemy_bullet.gd::GDScript::2811489106993735738::1771581844::0::1::::<>Area2D<><>0<>0<><>::
+enemy_kamikaze.gd::GDScript::845464728959552516::1771581788::0::1::::<>EnemyBase<><>0<>0<><>::
+enemy_laser.gd::GDScript::3448717097635681298::1771588182::0::1::::<>EnemyBase<><>0<>0<><>::
+enemy_shooter.gd::GDScript::7039934636856340157::1771581788::0::1::::<>EnemyBase<><>0<>0<><>::
+enemy_straight.gd::GDScript::1927455034397241115::1771581788::0::1::::<>EnemyBase<><>0<>0<><>::
+enemy_zigzag.gd::GDScript::6651115427487768409::1771581788::0::1::::<>EnemyBase<><>0<>0<><>::
+explosion.gd::GDScript::2040864653009359843::1771581788::0::1::::<>CPUParticles2D<><>0<>0<><>::
+main_camera.gd::GDScript::7666282302837933675::1771581788::0::1::::<>Camera2D<><>0<>0<><>::
+parallax_scroll.gd::GDScript::-1::1771581788::0::1::::<>ParallaxBackground<><>0<>0<><>::
+shooter_player.gd::GDScript::6095871407588503602::1771581844::0::1::::<>CharacterBody2D<><>0<>0<><>::
+wave_spawner.gd::GDScript::7976348542146731446::1771588829::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/ui/::1771587827
+game_over_screen.gd::GDScript::296381298527990674::1771581788::0::1::::<>Control<><>0<>0<><>::
+hud.gd::GDScript::4006289492805887589::1771588632::0::1::::<>CanvasLayer<><>0<>0<><>::
+main_menu.gd::GDScript::488971706331828267::1771583607::0::1::::<>Control<><>0<>0<><>::
+pause_menu.gd::GDScript::760994648064043353::1771584973::0::1::::<>CanvasLayer<><>0<>0<><>::
+transition_effect.gd::GDScript::4964512099047466075::1771581788::0::1::::<>CanvasLayer<><>0<>0<><>::
+victory_screen.gd::GDScript::6341943972226237982::1771591054::0::1::::<>Control<><>0<>0<><>::
+::res://shaders/::1771581875
+hit_flash.gdshader::Shader::8663113420065344440::1771581875::0::1::::<><><>0<>0<><>::
+transition.gdshader::Shader::7081769739289073486::1771581875::0::1::::<><><>0<>0<><>::

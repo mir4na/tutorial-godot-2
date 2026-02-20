@@ -18,15 +18,26 @@ var phase_duration := 20.0
 var phase_timer := 0.0
 var spawn_timer := 0.0
 var asteroid_spawn_timer := 0.0
-
 var enemies_alive := 0
+var game_started := false
+var in_transition := false
 var boss_spawned := false
 
 func _ready() -> void:
 	EventBus.enemy_killed.connect(_on_enemy_killed)
-	print("Game Started: Phase 1 (Scouts)")
+	_start_level_buffer()
+
+func _start_level_buffer() -> void:
+	await get_tree().create_timer(3.0).timeout
+	game_started = true
+	var hud = get_tree().current_scene.find_child("HUD", true, false)
+	if hud and hud.has_method("hide_mission_label"):
+		hud.hide_mission_label()
 
 func _process(delta: float) -> void:
+	if not game_started or in_transition:
+		return
+		
 	phase_timer += delta
 	
 	if current_game_phase != GamePhase.BOSS and phase_timer >= phase_duration:
@@ -39,19 +50,22 @@ func _advance_phase() -> void:
 	match current_game_phase:
 		GamePhase.SCOUTS:
 			current_game_phase = GamePhase.ELITE
-			print("Phase 2: Elite Squadron")
 		GamePhase.ELITE:
 			current_game_phase = GamePhase.ASTEROIDS
-			print("Phase 3: Asteroid Belt")
 		GamePhase.ASTEROIDS:
 			current_game_phase = GamePhase.MIXED
-			print("Phase 4: Mixed Chaos")
 		GamePhase.MIXED:
-			current_game_phase = GamePhase.BOSS
-			print("Phase 5: BOSS BATTLE")
-			if EventBus.has_user_signal("boss_spawned"):
-				EventBus.boss_spawned.emit()
-			_spawn_boss()
+			_start_boss_transition()
+
+func _start_boss_transition() -> void:
+	in_transition = true
+	EventBus.boss_transition_started.emit()
+	await get_tree().create_timer(3.0).timeout
+	in_transition = false
+	current_game_phase = GamePhase.BOSS
+	if EventBus.has_user_signal("boss_spawned"):
+		EventBus.boss_spawned.emit()
+	_spawn_boss()
 
 func _handle_spawning(delta: float) -> void:
 	spawn_timer += delta
@@ -82,7 +96,7 @@ func _handle_spawning(delta: float) -> void:
 				else: _spawn_enemy("shooter")
 			if asteroid_spawn_timer >= 2.0:
 				asteroid_spawn_timer = 0.0
-				_spawn_asteroid(false)
+				_spawn_asteroid(true)
 		
 		GamePhase.BOSS:
 			pass
@@ -114,5 +128,3 @@ func _spawn_boss() -> void:
 
 func _on_enemy_killed(_points: int) -> void:
 	enemies_alive -= 1
-	if current_game_phase == GamePhase.BOSS and boss_spawned and enemies_alive <= 0:
-		get_tree().create_timer(2.0).timeout.connect(func(): EventBus.victory.emit())

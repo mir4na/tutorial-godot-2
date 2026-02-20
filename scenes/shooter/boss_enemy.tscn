@@ -5,7 +5,7 @@
 [ext_resource type="AudioStream" uid="uid://b0uqh4fcw1fpq" path="res://audio/exp (mp3cut.net).mp3" id="2_uuriy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uuriy"]
-size = Vector2(313, 415)
+size = Vector2(192.5, 236.5)
 
 [node name="BossEnemy" type="Area2D" unique_id=1431842137]
 collision_layer = 8
@@ -15,10 +15,10 @@ explosion_sfx = ExtResource("2_uuriy")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1832172208]
 modulate = Color(1.3655106, 0, 0.71076363, 1)
-position = Vector2(2.861023e-06, 0.9999981)
-scale = Vector2(1.6562499, 1.5624999)
+position = Vector2(-3, -7.6293945e-06)
+scale = Vector2(1.0378023, 0.8738425)
 texture = ExtResource("2_7x5k5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=442854363]
-position = Vector2(-0.5, 0.5)
+position = Vector2(-4.25, -0.25)
 shape = SubResource("RectangleShape2D_uuriy")
