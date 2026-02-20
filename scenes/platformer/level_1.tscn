@@ -12,6 +12,7 @@
 [ext_resource type="Script" uid="uid://ccy313a1khlax" path="res://scripts/ui/transition_effect.gd" id="6_transition"]
 [ext_resource type="Script" uid="uid://cf7qrbsn1phwa" path="res://scripts/platformer/falling_trap.gd" id="7_trap"]
 [ext_resource type="AudioStream" uid="uid://c55700r1vkiaa" path="res://audio/Jump Sound Effect - Technical sp (mp3cut.net).mp3" id="8_5d0op"]
+[ext_resource type="Script" uid="uid://dqwv8bijllx4v" path="res://scripts/platformer/trigger_label.gd" id="9_label_trigger"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uqoh2"]
 size = Vector2(91, 151)
@@ -37,6 +38,14 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_bg")
 stretch_mode = 1
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=51437654]
+offset_left = 1640.0
+offset_top = 20.0
+offset_right = 1878.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 24
+text = "PRESS ESC TO PAUSE"
 
 [node name="Platforms" type="Node2D" parent="." unique_id=982404861]
 
@@ -143,8 +152,24 @@ position = Vector2(727, -2000)
 rotation = 3.1415927
 scale = Vector2(5, 5)
 
-[node name="TriggerObstacle2" type="Area2D" parent="." unique_id=769227078]
+[node name="TriggerLabel" type="Area2D" parent="." unique_id=769227078 node_paths=PackedStringArray("target_label")]
+collision_layer = 0
+collision_mask = 3
+script = ExtResource("9_label_trigger")
+target_label = NodePath("../BewareLabel")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerObstacle2" unique_id=1724984101]
-position = Vector2(727, 281.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerLabel" unique_id=1724984101]
+position = Vector2(1139, 99)
 shape = SubResource("RectangleShape2D_uqoh2")
+
+[node name="BewareLabel" type="Label" parent="." unique_id=1094660364]
+visible = false
+offset_left = 1310.0
+offset_top = -191.0
+offset_right = 1439.0
+offset_bottom = -146.0
+theme_override_colors/font_color = Color(1, 0, 0.22745098, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "BEWARE"

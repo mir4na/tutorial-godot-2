@@ -54,7 +54,7 @@ func _fire_circle(count: int, offset: float) -> void:
 		_spawn_bullet(angle)
 
 func _fire_spiral() -> void:
-	angle_offset += 0.15
+	angle_offset += 0.3
 	_spawn_bullet(angle_offset)
 
 func _fire_fan() -> void:

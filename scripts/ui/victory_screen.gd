@@ -7,7 +7,10 @@ func _ready() -> void:
 	$VBoxContainer/RestartButton.pressed.connect(_on_restart_pressed)
 	next_level_button.pressed.connect(_on_next_level_pressed)
 	
-	score_label.text = "I was just saying ‘beware.’"
+	if GameManager.next_level_path != "":
+		score_label.text = "I was just saying ‘beware.’"
+	else:
+		score_label.text = "FINAL SCORE: %d" % GameManager.score
 	
 	if GameManager.next_level_path == "":
 		next_level_button.visible = false

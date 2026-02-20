@@ -50,7 +50,7 @@ horizontal_alignment = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0.6, 0.6, 0.7, 1)
 theme_override_font_sizes/font_size = 16
-text = "day 1 kembali ga pake AI"
+text = "day 1 bikin game ga pake AI"
 horizontal_alignment = 1
 
 [node name="StartButton" type="Button" parent="VBoxContainer" unique_id=441923253]

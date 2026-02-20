@@ -15,6 +15,12 @@ func _ready() -> void:
 var active_bgm_tween: Tween
 
 func play_bgm(stream: AudioStream, volume_db: float = -10.0) -> void:
+	if stream:
+		if "loop" in stream:
+			stream.loop = true
+		elif "loop_mode" in stream:
+			stream.loop_mode = 1
+			
 	if bgm_player.stream == stream and bgm_player.playing:
 		return
 	if active_bgm_tween:
